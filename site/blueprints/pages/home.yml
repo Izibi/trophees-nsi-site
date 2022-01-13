@@ -1,0 +1,33 @@
+title : Page d'accueil
+
+sections:
+  content:
+    type: fields
+    fields:
+      news:
+        type: structure
+        label: Billet d'actualité
+        fields:
+          date:
+            type: date
+            label: Date de parution
+            default: today
+          text:
+            type: textarea
+            label : Texte de l'actualité
+          published:
+              type: toggle
+              label: Publié ?
+              text:
+                - "Non"
+                - "Oui"
+      blocks:
+        type: blocks
+        label: Contenu de la page
+        fieldsets:
+          - features
+          - paragraph
+          - mosaic
+          - calendar
+          - partners
+          - step

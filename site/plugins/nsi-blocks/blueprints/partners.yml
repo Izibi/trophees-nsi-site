@@ -1,0 +1,28 @@
+name: Partenaires
+icon: globe
+
+fields:
+  headline:
+    type: text
+    label: Le titre du bloc
+  text:
+    type: textarea
+    label: Texte du bloc
+  partners:
+    type: structure
+    label: Liste des partenaires
+    fields:
+      logo:
+        type: files
+        label: Le logo
+        max: 1
+        layout: cardlets
+      name:
+        type: text
+        label: Nom du partenaire
+      url:
+        type: url
+        label: Site internet du partenaires
+  conclusion:
+    type: textarea
+    label: Conclusion du bloc

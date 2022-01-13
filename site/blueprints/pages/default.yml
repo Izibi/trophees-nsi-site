@@ -1,8 +1,41 @@
-title: Default Page
+title: Page par défaut
 preset: page
 fields:
-  text:
-    label: Text
+  intro_headline:
+    type: headline
+    label: Informations de la page
+  slug:
+    type: text
+    label: Label court pour le menu
+  description:
     type: textarea
-    size: large
-
+    label: Description de la page
+  text_headline:
+    type: headline
+    label: Contenu de la page
+  text:
+    label: Blocs
+    type: blocks
+    fieldsets:
+      blocks_layout:
+        label: Spéciaux
+        type: group
+        fieldsets:
+          - features
+          - paragraph
+          - mosaic
+          - calendar
+          - partners
+          - step
+      blocks_content:
+        label: Blocs courants
+        type: group
+        fieldsets:
+          - heading
+          - text
+          - list
+          - image
+          - gallery
+          - video
+          - code
+          - markdown

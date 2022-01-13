@@ -1,0 +1,15 @@
+name: Étape
+icon: list-numbers
+
+fields:
+  headline:
+    type: text
+    label: Le titre du bloc
+  text:
+    type: textarea
+    label: Description de l'étape
+  image:
+    type: files
+    label: Illustration de l'étape
+    layout: cards
+    max: 1

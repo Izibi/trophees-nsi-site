@@ -1,0 +1,13 @@
+Title: Préparer votre participation
+
+----
+
+Slug: Participer
+
+----
+
+Description: 
+
+----
+
+Text: [{"content":{"headline":"Constituez une \u00e9quipe","text":"- Entre 2 et 5 personnes de m\u00eame niveau scolaire\n- Essayez de faire mixte\n- Accord de l\u2019enseignant","image":[]},"id":"a45249e5-7812-4d9b-9415-ab3a2e4e878a","isHidden":false,"type":"step"}]

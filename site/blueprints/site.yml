@@ -1,2 +1,34 @@
-preset: pages
-unlisted: true
+title: Trophées NSI
+
+sections:
+
+
+  menu:
+    type: fields
+    fields:
+      menu_links:
+        type: pages
+        label: Entrées du menu
+        layout: cards
+  brand:
+    type: fields
+    fields:
+      logo:
+        type: files
+        label: Logo
+        max: 1
+
+  footer:
+    type: fields
+    fields:
+      footer_links:
+        type: pages
+        label : Menu du pied de page
+      legals:
+        type: text
+        label: Mention sur les droits réservés
+
+  allpages:
+    headline: Pages du site
+    type: pages
+    # parent: site.find("artistes")

@@ -1,0 +1,28 @@
+name: Miniatures
+icon: images
+
+fields:
+  headline:
+    type: text
+    label: Le titre du bloc
+  thumbnails:
+    type: structure
+    label: Liste des vignettes
+    fields:
+      image:
+        type: files
+        label: L'illustration
+        max: 1
+        layout: cards
+      text:
+        type: text
+        label: Texte de la vignette
+  cta_label:
+    type: text
+    label: Libellé du bouton
+    width: 1/2
+  cta_url:
+    type: url
+    label: Adresse du bouton
+    width: 1/2
+    required: true

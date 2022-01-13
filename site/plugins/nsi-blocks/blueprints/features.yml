@@ -1,0 +1,17 @@
+name: Liste d'arguments
+icon: list-bullet
+
+fields:
+  headline:
+    type: text
+    label: Le titre du bloc
+  text:
+    type: text
+    label: Chapeau du bloc
+  features:
+    type: structure
+    label: Liste des arguments
+    fields:
+      feature:
+        type: text
+        label: L'argument

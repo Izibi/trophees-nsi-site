@@ -1,0 +1,17 @@
+name: Paragraph
+icon: text
+
+fields:
+  headline:
+    type: text
+    label: Le titre du bloc
+  header:
+    type: text
+    label: Chapeau du bloc
+  text:
+    type: textarea
+    label: Contenu du bloc
+  image:
+    type: files
+    label: Image d'arrière plan
+    max: 1

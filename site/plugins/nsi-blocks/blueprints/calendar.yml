@@ -1,0 +1,28 @@
+name: Calendrier
+icon: calendar
+
+fields:
+  headline:
+    type: text
+    label: Le titre du bloc
+  dates:
+    type: structure
+    label: Liste des échéances
+    fields:
+      icon:
+        type: files
+        label: L'icône
+        max: 1
+        layout: cardlets
+      date_headline:
+        type: text
+        label: Titre de l'échéance
+      day:
+        type: text
+        label: Date de l'échéance
+      hour:
+        type: text
+        label: Heure de l'échéance
+      comment:
+        type: text
+        label: Commentaire sur l'échéance

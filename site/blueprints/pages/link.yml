@@ -1,0 +1,9 @@
+title : Lien externe
+
+sections:
+  link:
+    type: fields
+    fields:
+      news:
+        type: url
+        label: Adresse

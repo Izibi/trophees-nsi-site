@@ -1,1 +1,23 @@
-Title: Site Title
+Title: Les trophées NSI
+
+----
+
+Menu-links:
+
+- le-reglement
+- preparer-votre-participation
+
+----
+
+Logo: 
+
+----
+
+Footer-links:
+
+- a-propos
+- mentions-legales
+
+----
+
+Legals: 

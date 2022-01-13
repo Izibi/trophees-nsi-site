@@ -1,1 +1,16 @@
 Title: Home
+
+----
+
+News:
+
+- 
+  date: 2022-01-13
+  text: >
+    Vous avez jusqu’au 5 mai 2022 à midi
+    pour déposer les projets
+  published: 'true'
+
+----
+
+Blocks: [{"content":{"headline":"Objectifs du concours","text":"Mettre en avant les projets r\u00e9alis\u00e9s par des \u00e9l\u00e8ves de lyc\u00e9e suivant l\u2019enseignement de NSI.","features":[{"feature":"Progresser en NSI au lyc\u00e9e"},{"feature":"Travailler en groupe sur des projets"},{"feature":"Progresser en programmation informatique."},{"feature":"Concourir & remporter un des prix en jeu."}]},"id":"e44420ef-b17c-4710-977f-293afd8c37b2","isHidden":false,"type":"features"},{"content":{"headline":"Enseignants","header":"Pourquoi faire participer vos \u00e9l\u00e8ves ?","text":"Dans le cadre de l\u2019enseignement de sp\u00e9cialit\u00e9 NSI suivi au lyc\u00e9e, les lyc\u00e9ens et lyc\u00e9ennes sont amen\u00e9s \u00e0 travailler en groupe sur des projets, notamment en lien avec les langages de programmation informatique. Le concours les incitera \u00e0 pr\u00e9senter ce projet de groupe pour tenter de remporter un des prix en jeu.","image":[]},"id":"c01e426a-4e43-47d4-a6ff-9a70aa806954","isHidden":false,"type":"paragraph"},{"content":{"headline":"Qui peut participer ?","thumbnails":[{"image":[],"text":"Tous les lyc\u00e9ens suivant la sp\u00e9cialit\u00e9 NSI dans les lyc\u00e9es de 21 territoires"}],"cta_label":"D\u00e9poser un projet","cta_url":"http:\/\/www.france-ioi.org"},"id":"4cf6c962-d44b-4cb4-a7b9-035db2043fdb","isHidden":false,"type":"mosaic"},{"content":{"headline":"Calendrier","dates":[{"icon":[],"date_headline":"Ouverture du d\u00e9p\u00f4t des projets","day":"Fin Janvier 2022","hour":"","comment":""},{"icon":[],"date_headline":"Finale nationale","day":"7 Juin 2022","hour":"14h \u00e0 16h","comment":"Lors de la journ\u00e9e nationale \u00ab Num\u00e9rique et sciences informatiques \u00bb"}]},"id":"d0f0057e-4148-4e8b-ad0f-6c92ebd8e2d0","isHidden":false,"type":"calendar"},{"content":{"headline":"Partenaires","text":"Le projet NSI est une action collective \u00e0 l\u2019initiative de diff\u00e9rentes organisations de l\u2019\u00e9cosyst\u00e8me num\u00e9rique qui ont \u00e0 c\u0153ur la promotion et la valorisation des disciplines du num\u00e9rique et de l\u2019informatique :","partners":[{"logo":[],"name":"Aeif","url":"https:\/\/www.aeif.fr"}],"conclusion":"Le projet est par ailleurs soutenu par plusieurs autres organisations et institutions (Conf\u00e9rence des pr\u00e9sidents d\u2019universit\u00e9, Conf\u00e9rence des directeurs des \u00e9coles fran\u00e7aises d\u2019ing\u00e9nieurs, Conf\u00e9rence des grandes \u00e9coles\u2026), dont le minist\u00e8re de l\u2019\u00c9ducation nationale, de la Jeunesse et des Sports."},"id":"b9da5083-7132-4b22-9178-a75f9c2c6c86","isHidden":false,"type":"partners"}]
