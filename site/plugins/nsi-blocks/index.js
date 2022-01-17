@@ -30,7 +30,7 @@ panel.plugin("nsi/blocks", {
             <h2 v-html="content.headline" class="-margin"></h2>
             <ul class="features mosaic">
               <li class="mosaic__thumbnail" v-for="(item, index) in content.thumbnails" :key="'thumb_'+index">
-                <div>{{ item.image }}</div>
+                <figure><img :src="item.image[0].url" alt="" /></figure>
                 <div>{{ item.text }}</div>
               </li>
             </ul>
@@ -44,7 +44,7 @@ panel.plugin("nsi/blocks", {
             <h2 class="-margin" v-html="content.headline"></h2>
             <ul class="features dates">
               <li class="date" v-for="(item, index) in content.dates" :key="'date_'+index">
-                <div>{{ item.icon }}</div>
+                <figure ><img v-if="item.icon[0]" :src="item.icon[0].url" alt="" /></figure>
                 <h3>{{ item.date_headline }}</h3>
                 <div>{{ item.day }}</div>
                 <div>{{ item.hour }}</div>
@@ -62,7 +62,7 @@ panel.plugin("nsi/blocks", {
             <div class="-margin" v-html="content.text"></div>
             <ul class="partners -margin">
               <li v-for="(item, index) in content.partners" :key="'partners_'+index">
-                <div>{{ item.logo }}</div>
+                <img v-if="item.logo.length > 0" :src="item.logo[0].url" :alt="'logo ' + item.name" />
                 <div>{{ item.name }}</div>
               </li>
             </ul>

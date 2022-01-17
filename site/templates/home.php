@@ -12,7 +12,7 @@ function selectNews($news) {
 
 ?>
 
-<header class="header -decoBottom">
+<header class="cover">
 
   <!-- Cover -->
   <?php if (null !== $page->cover()->toFile() ): ?>
@@ -26,13 +26,16 @@ function selectNews($news) {
 
   <?= snippet('ui/menu') ?>
 
-  <div class="header__brand">
-    <figure class="header__brand__picto">
-      <?= asset('assets/img/nsi-logo-small.svg')->read() ?>
-    </figure>
-    <p class="header__brand__headline"><?= $site->title()?></p>
+  <!-- Logo -->
+  <figure class="cover__brand">
+      <?= asset('assets/img/nsi-logo.svg')->read() ?>
+  </figure>
+
+  <!-- News -->
+  <div class="cover__news">
+    <h2 class="secondaryTitle"><?= $page->news_headline() ?></h2>
+    <div class="cover__news__text"><?= selectNews($news)->text()->kirbytext() ?></div>
   </div>
-  <h1 class="header__title primaryTitle"><?= $page->title() ?></h1>
 
 </header>
 

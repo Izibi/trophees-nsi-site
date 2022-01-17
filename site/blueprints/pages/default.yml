@@ -1,10 +1,11 @@
 title: Page par défaut
 preset: page
 fields:
+  cover: fields/cover
   intro_headline:
     type: headline
     label: Informations de la page
-  slug:
+  short:
     type: text
     label: Label court pour le menu
   description:

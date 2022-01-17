@@ -2,7 +2,6 @@ title: Trophées NSI
 
 sections:
 
-
   menu:
     type: fields
     fields:
@@ -17,7 +16,6 @@ sections:
         type: files
         label: Logo
         max: 1
-
   footer:
     type: fields
     fields:

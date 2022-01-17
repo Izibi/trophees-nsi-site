@@ -26,3 +26,10 @@ fields:
       comment:
         type: text
         label: Commentaire sur l'échéance
+      duration:
+        type: toggle
+        label: Cette date est une durée
+        text:
+          - 'Non'
+          - 'Oui'
+        default: 'Non'

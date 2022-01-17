@@ -6,6 +6,16 @@ Slug: Participer
 
 ----
 
+Cover:
+
+- illu-01.jpg
+
+----
+
+Short: Participer
+
+----
+
 Description: 
 
 ----

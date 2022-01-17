@@ -6,6 +6,10 @@ Slug: Règlement
 
 ----
 
+Short: Règlement
+
+----
+
 Description: 
 
 ----
