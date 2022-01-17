@@ -6,11 +6,19 @@ Slug: Règlement
 
 ----
 
+Cover: 
+
+----
+
 Short: Règlement
 
 ----
 
 Description: 
+
+----
+
+Blocks: [{"content":{"level":"h2","text":"\u00c9tablissements qui peuvent participer"},"id":"9c1ed275-274a-4abf-a764-e6304a206111","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li>\u00c9tablissements sous contrat avec l\u2019\u00e9ducation nationale<\/li><li>Dans l\u2019un des territoires list\u00e9s plus bas<\/li><\/ul>"},"id":"4d5c1210-b0ea-4b81-a796-7e976523d1b7","isHidden":false,"type":"list"},{"content":{"level":"h2","text":"Projets \u00e9ligibles"},"id":"2ddf8279-a9fd-4c6c-a924-425750c10af1","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li>D\u00e9veloppement obligatoirement en langage Python<\/li><li>Doivent \u00eatre construits dans le cadre de l\u2019enseignement de NSIOpen-source<\/li><\/ul>"},"id":"eba7d5ce-5d63-4d55-bf7c-250a6b7a5ba0","isHidden":false,"type":"list"}]
 
 ----
 

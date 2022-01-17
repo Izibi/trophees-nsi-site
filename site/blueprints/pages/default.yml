@@ -14,7 +14,7 @@ fields:
   text_headline:
     type: headline
     label: Contenu de la page
-  text:
+  blocks:
     label: Blocs
     type: blocks
     fieldsets:

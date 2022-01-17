@@ -26,20 +26,30 @@ function selectNews($news) {
 
   <?= snippet('ui/menu') ?>
 
+  <!-- Brand -->
   <div class="header__brand">
-    <figure class="header__brand__picto">
-      <?= asset('assets/img/nsi-logo-small.svg')->read() ?>
-    </figure>
+    <a class="header__brand__link" href="<?= $site->url() ?>">
+      <figure class="header__brand__picto">
+        <?= asset('assets/img/nsi-logo-small.svg')->read() ?>
+      </figure>
     <p class="header__brand__headline"><?= $site->title()?></p>
+    </a>
   </div>
+
+  <!-- Title -->
   <h1 class="header__title primaryTitle"><?= $page->title() ?></h1>
 
 </header>
 
 <section class="content">
 
+  <?php $count = 1; ?>
   <?php foreach ($page->blocks()->toBlocks() as $key => $block): ?>
-      <?= $block ?>
+    <?php snippet('blocks/' . $block->type(), [
+      'block' => $block,
+      'count' => $count
+    ]);
+    if($block->type() == 'step') $count++; ?>
   <?php endforeach; ?>
 
 </section>
