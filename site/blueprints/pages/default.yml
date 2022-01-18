@@ -5,9 +5,7 @@ fields:
   intro_headline:
     type: headline
     label: Informations de la page
-  short:
-    type: text
-    label: Label court pour le menu
+  short: fields/short
   description:
     type: textarea
     label: Description de la page

@@ -9,8 +9,8 @@
     <h2 class="secondaryTitle"><?= $block->headline() ?></h2>
 
     <div class="block__paragraph">
-      <div class=""><?= $block->header()->kirbytext() ?></div>
-      <div class=""><?= $block->text()->kirbytext() ?></div>
+      <div class="block__paragraph__intro"><?= $block->header()->kirbytext() ?></div>
+      <div class="block__paragraph__text"><?= $block->text()->kirbytext() ?></div>
     </div>
 
   </div>

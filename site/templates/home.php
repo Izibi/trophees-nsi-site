@@ -33,7 +33,7 @@ function selectNews($news) {
 
   <!-- News -->
   <div class="cover__news">
-    <h2 class="secondaryTitle"><?= $page->news_headline() ?></h2>
+    <h2 class="cover__news__title secondaryTitle"><?= $page->news_headline() ?></h2>
     <div class="cover__news__text"><?= selectNews($news)->text()->kirbytext() ?></div>
   </div>
 

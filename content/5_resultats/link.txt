@@ -1,0 +1,9 @@
+Title: Résultats
+
+----
+
+Target: http://www.france-ioi.org
+
+----
+
+Short: Résultats
