@@ -61,9 +61,9 @@ panel.plugin("nsi/blocks", {
             <h2 class="-margin" v-html="content.headline"></h2>
             <div class="-margin" v-html="content.text"></div>
             <ul class="partners -margin">
-              <li v-for="(item, index) in content.partners" :key="'partners_'+index">
-                <img v-if="item.logo.length > 0" :src="item.logo[0].url" :alt="'logo ' + item.name" />
-                <div>{{ item.name }}</div>
+              <li class="partner"v-for="(item, index) in content.partners" :key="'partners_'+index">
+                <img v-if="item.logo.length > 0" :src="item.logo[0].image.url" :srcset="item.logo[0].image.srcset" :alt="'logo ' + item.name" />
+                <p class="partner__name">{{ item.name }}</p>
               </li>
             </ul>
             <div v-html="content.conclusion"></div>
@@ -76,7 +76,7 @@ panel.plugin("nsi/blocks", {
           <div v-if="content.text && content.headline">
             <h2 v-html="content.headline"></h2>
             <div v-html="content.text"></div>
-            <div v-html="content.image"></div>
+            <figure><img :src="content.image[0].image.src" alt="content.image[0].image.text"/></figure>
           </div>
           <div v-else>Veuillez entrer un contenu...</div>
         </div>

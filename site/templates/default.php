@@ -30,6 +30,7 @@ function selectNews($news) {
 
   <!-- Title -->
   <h1 class="header__title primaryTitle"><?= $page->title() ?></h1>
+  <div class="header__desc -plain"><?= $page->description()->kirbytext() ?></div>
 
 </header>
 

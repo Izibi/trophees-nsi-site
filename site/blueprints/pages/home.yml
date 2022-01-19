@@ -36,3 +36,5 @@ sections:
           - calendar
           - partners
           - step
+  medias:
+    type: files

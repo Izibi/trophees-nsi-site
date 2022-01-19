@@ -1,6 +1,6 @@
 <?php if($block->headline()->isNotEmpty()): ?>
 
-  <div class="block -<?= $block->type() ?>">
+  <div class="block -<?= $block->type() ?> -decoAngle">
 
     <figure class="block__background -bgImg">
       <?= $block->image()->toFile() ?>
@@ -10,7 +10,7 @@
 
     <div class="block__paragraph">
       <div class="block__paragraph__intro"><?= $block->header()->kirbytext() ?></div>
-      <div class="block__paragraph__text"><?= $block->text()->kirbytext() ?></div>
+      <div class="block__paragraph__text -plain"><?= $block->text()->kirbytext() ?></div>
     </div>
 
   </div>

@@ -8,7 +8,7 @@
       <?php foreach ($block->thumbnails()->toStructure() as $key => $thumb): ?>
         <li class="block__mosaic__item">
           <figure class="block__mosaic__item__image"><?= svg($thumb->image()->toFile()) ?></figure>
-          <p class="block__mosaic__item__text"><?= $thumb->text() ?></p>
+          <p class="block__mosaic__item__text -plain"><?= $thumb->text() ?></p>
         </li>
       <?php endforeach; ?>
     </ul>

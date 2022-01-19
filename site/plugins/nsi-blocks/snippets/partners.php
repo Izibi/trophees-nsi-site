@@ -18,7 +18,7 @@
       <?php endforeach; ?>
     </ul>
 
-    <div class="block__intro"><?= $block->text()->kirbytext() ?></div>
+    <div class="block__intro -plain"><?= $block->text()->kirbytext() ?></div>
 
   </div>
 
