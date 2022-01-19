@@ -16,11 +16,10 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
   <?= css([
-    'assets/css/normalize.css',
     'assets/fonts/bebas/index.css',
     'assets/fonts/roboto-slab/index.css',
+    'assets/css/normalize.css',
     'assets/css/main.css',
   ]) ?>
 
