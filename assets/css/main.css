@@ -119,10 +119,12 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   html { font-family: var(--typoPlain), serif; }
 
   .primaryTitle,
-  .secondaryTitle { font-family: var(--typoHeadings), sans-serif; text-transform: uppercase; }
+  .secondaryTitle,
+  .thirdTitle { font-family: var(--typoHeadings), sans-serif; text-transform: uppercase; }
 
   .primaryTitle { font-size: 3.5rem; text-align: center; line-height: 1em; font-weight: 400 }
   .secondaryTitle { color: var(--primary); font-size: 2.5rem; font-weight: 400; line-height: 1em; text-align: left; position: relative;}
+  .thirdTitle {  color: var(--primary); font-size: 1.5rem; font-weight: 400; line-height: 1em; text-align: left; position: relative;}
 
   .-plain {  }
   .-plain ul { padding-left: 1rem}

@@ -18,6 +18,22 @@
       <?php endforeach; ?>
     </ul>
 
+    <h3 class="thirdTitle">Avec le soutien de</h3>
+
+    <ul class="block__partners">
+      <?php foreach ($block->supports()->toStructure() as $key => $partner): ?>
+        <li class="block__partners__partner">
+          <figure class="block__partners__partner__logo">
+            <a href="<?= $partner->url() ?>" target="_blank">
+              <img src="<?= $partner->logo()->toFile()->url() ?>"
+                   srcset="<?= $partner->logo()->toFile()->srcset([60, 100, 100]) ?>"
+                   alt="<?= $partner->name() ?>"/>
+            </a>
+          </figure>
+        </li>
+      <?php endforeach; ?>
+    </ul>
+
     <div class="block__intro -plain"><?= $block->text()->kirbytext() ?></div>
 
   </div>

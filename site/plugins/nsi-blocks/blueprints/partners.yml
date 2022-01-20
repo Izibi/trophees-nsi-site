@@ -23,6 +23,21 @@ fields:
       url:
         type: url
         label: Site internet du partenaires
+  supports:
+    type: structure
+    label: Liste des structures en soutien
+    fields:
+      logo:
+        type: files
+        label: Le logo
+        max: 1
+        layout: cardlets
+      name:
+        type: text
+        label: Nom du partenaire
+      url:
+        type: url
+        label: Site internet du partenaires
   conclusion:
     type: textarea
     label: Conclusion du bloc
