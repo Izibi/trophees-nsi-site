@@ -2,7 +2,21 @@ Title: À propos
 
 ----
 
+Cover:
+
+- 3-las-4207.jpg
+
+----
+
+Short: 
+
+----
+
 Description: 
+
+----
+
+Blocks: 
 
 ----
 

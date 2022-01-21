@@ -1,7 +1,8 @@
 <?php
 
 return [
-    'debug'  => true
+    'url' => 'https://trophees-nsi.fr/',
+    'debug'  => false
 ];
 
 ?>
