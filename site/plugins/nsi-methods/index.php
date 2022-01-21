@@ -7,7 +7,7 @@
           $text = preg_replace('~[^\pL\d]+~u', '-', $text);
           // Transliterate
           setlocale(LC_ALL, 'en_US.utf8');
-          //$text = iconv('utf-8', 'us-ascii//TRANSLIT', $text);
+          $text = iconv('utf-8', 'us-ascii//TRANSLIT', $text);
           // Remove unwanted characters
           $text = preg_replace('~[^-\w]+~', '', $text);
           // Trim
