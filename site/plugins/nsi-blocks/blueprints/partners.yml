@@ -23,6 +23,9 @@ fields:
       url:
         type: url
         label: Site internet du partenaires
+  supports_headline:
+    type: text
+    label: Titre des soutiens
   supports:
     type: structure
     label: Liste des structures en soutien

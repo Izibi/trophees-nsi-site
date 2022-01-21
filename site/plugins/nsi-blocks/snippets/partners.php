@@ -18,15 +18,15 @@
       <?php endforeach; ?>
     </ul>
 
-    <h3 class="thirdTitle">Avec le soutien de</h3>
+    <h3 class="thirdTitle"><?= $block->supports_headline() ?></h3>
 
-    <ul class="block__partners">
+    <ul class="block__supports">
       <?php foreach ($block->supports()->toStructure() as $key => $partner): ?>
-        <li class="block__partners__partner">
-          <figure class="block__partners__partner__logo">
+        <li class="block__supports__partner">
+          <figure class="block__supports__partner__logo">
             <a href="<?= $partner->url() ?>" target="_blank">
               <img src="<?= $partner->logo()->toFile()->url() ?>"
-                   srcset="<?= $partner->logo()->toFile()->srcset([60, 100, 100]) ?>"
+                   srcset="<?= $partner->logo()->toFile()->srcset([300, 300, 300]) ?>"
                    alt="<?= $partner->name() ?>"/>
             </a>
           </figure>

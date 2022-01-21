@@ -66,7 +66,7 @@ panel.plugin("nsi/blocks", {
                 <p class="partner__name">{{ item.name }}</p>
               </li>
             </ul>
-            <h3>Avec le soutien de...</h3>
+            <h3>{{ content.supports_headline }}</h3>
             <ul class="partners -margin">
               <li class="partner"v-for="(item, index) in content.supports" :key="'partners_'+index">
                 <img v-if="item.logo.length > 0" :src="item.logo[0].image.url" :srcset="item.logo[0].image.srcset" :alt="'logo ' + item.name" />

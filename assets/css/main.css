@@ -209,7 +209,11 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .block__partners__partner__logo { position: relative; height: 100%; padding-bottom: 100%; }
   .block__partners__partner__logo a { position: absolute; left: 0; top: 0; display: flex; width: 100%; height: 100%; justify-content: center; align-items: center; }
   .block__partners__partner__logo a:hover { padding: 0 }
-  .block__partners__partner__logo img { width: 100%; height: auto;  }
+  .block__partners__partner__logo img { width: auto; height: auto; max-width: 100%; max-height: 76px; }
+  .block__supports { display: flex; list-style: none; justify-content: center; margin-bottom: 3rem; }
+  .block__supports__partner { max-width: 100%; }
+  .block__supports__partner__logo a { display: block; width: 100%; height: 100%; }
+  .block__supports__partner__logo img { width: 100%; height: auto;}
 
   .block__step { margin-bottom: 3rem;}
   .block__step__number { position: absolute; font-family: var(--typoHeadings); color: var(--dark); font-size: 9rem; opacity: .2; top: -6px; left: -4px; line-height: 7.4rem;}
@@ -345,6 +349,8 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .block.-deco:before,
   .block.-deco:after { display: none;}
 
+  .block__supports__partner { max-width: 50%; }
+
   .block__mosaic__item { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2rem; grid-template-areas: 'text illustration' }
   .block__mosaic__item__text { align-self: center; grid-area: text; text-align: left;}
 
@@ -389,6 +395,7 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
 
   .block__mosaic { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1rem;}
   .block__partners { grid-template-columns: repeat(4, 1fr) }
+  .block__supports__partner { max-width: 40%; }
 
   .block.-step { display: grid; grid-template-columns: 1fr 1fr; grid-template-areas: 'text illustration'; grid-gap: 2rem; }
   .block.-step:nth-child(even) { grid-template-areas: 'illustration text';}
@@ -440,7 +447,8 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .block__calendar__date:last-child .block__calendar__date__marker { display: none; border-bottom: none; }
 
 
-  .block__partners { grid-template-columns: repeat(6, 1fr); }
+  .block__partners { grid-template-columns: repeat(5, 1fr); }
+  .block__supports__partner { max-width: 30%; }
 
 }
 
