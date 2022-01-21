@@ -1,4 +1,5 @@
-<?php Kirby::plugin('nsi/methods', [
+<?php
+Kirby::plugin('nsi/methods', [
   'siteMethods' => [
       'slugify' => function ($text = '') {
             // Strip html tags

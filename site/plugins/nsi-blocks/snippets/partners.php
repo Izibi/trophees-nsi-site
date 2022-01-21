@@ -10,7 +10,7 @@
           <figure class="block__partners__partner__logo">
             <a href="<?= $partner->url() ?>" target="_blank">
               <img src="<?= $partner->logo()->toFile()->url() ?>"
-                   srcset="<?= $partner->logo()->toFile()->srcset([60, 100, 100]) ?>"
+                   srcset="<?= $partner->logo()->toFile()->srcset([60, 200, 300]) ?>"
                    alt="<?= $partner->name() ?>"/>
             </a>
           </figure>
