@@ -169,8 +169,10 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .block:nth-child(even) { background-color: var(--primary); color: var(--white)}
   .block:nth-child(even) .secondaryTitle { color: var(--white) }
   .block:nth-child(even) svg line,
+  .block:nth-child(even) svg polyline,
   .block:nth-child(even) svg path { stroke: var(--white) }
   .block:nth-child(even) svg text { fill: var(--white) }
+  .block:nth-child(even) svg path.-fillPrimary { fill: var(--dark); stroke: none; }
   .block:nth-child(even) .-plain a:hover { background-color: var(--white); color: var(--primary) }
   .block.-features,
   .block.-paragraph { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; }

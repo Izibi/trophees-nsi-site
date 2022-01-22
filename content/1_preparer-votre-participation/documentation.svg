@@ -1,32 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="300px" height="250px" viewBox="0 0 300 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Illustrations / Documentation</title>
-    <g id="Illustrations-/-Documentation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="Group-49" transform="translate(44.000000, 23.000000)" stroke="#E65025" stroke-width="3">
-            <path d="M137.3394,139.4483 L137.3394,186.9823 C137.3394,192.3373 132.9994,196.6773 127.6464,196.6773 L17.2884,196.6773 C11.9354,196.6773 7.5954,192.3373 7.5954,186.9823 L7.5954,9.6943 C7.5954,4.3403 11.9354,0.0003 17.2884,0.0003 L108.5794,0.0003 L137.3394,28.2383 L137.3394,64.1493" id="Stroke-1"></path>
-            <path d="M108.5796,0 L108.5796,24.847 C108.5796,26.999 110.3236,28.743 112.4746,28.743 L137.3396,28.743" id="Stroke-3"></path>
-            <path d="M127.646,196.6768 L17.289,196.6768 C11.935,196.6768 7.595,192.3368 7.595,186.9828 L7.595,9.6938 C7.595,9.0398 7.662,8.4028 7.785,7.7848 C3.346,8.6718 0,12.5888 0,17.2888 L0,194.5768 C0,199.9308 4.34,204.2718 9.695,204.2718 L120.051,204.2718 C124.751,204.2718 128.667,200.9258 129.555,196.4868 C128.937,196.6098 128.299,196.6768 127.646,196.6768 Z" id="Stroke-5"></path>
-            <line x1="33.9751" y1="44.0298" x2="110.9591" y2="44.0298" id="Stroke-7"></line>
-            <line x1="33.9751" y1="53.5186" x2="110.9591" y2="53.5186" id="Stroke-9"></line>
-            <line x1="33.9751" y1="63.0079" x2="110.9591" y2="63.0079" id="Stroke-11"></line>
-            <line x1="33.9751" y1="72.4966" x2="110.9591" y2="72.4966" id="Stroke-13"></line>
-            <line x1="33.9751" y1="81.9859" x2="106.2371" y2="81.9859" id="Stroke-15"></line>
-            <line x1="33.9751" y1="91.4747" x2="102.1391" y2="91.4747" id="Stroke-17"></line>
-            <line x1="33.9751" y1="100.9639" x2="99.8331" y2="100.9639" id="Stroke-19"></line>
-            <line x1="33.9751" y1="110.4532" x2="101.3711" y2="110.2512" id="Stroke-21"></line>
-            <line x1="33.9751" y1="119.9414" x2="104.4441" y2="119.9834" id="Stroke-23"></line>
-            <line x1="33.9751" y1="129.4307" x2="110.9591" y2="129.4307" id="Stroke-25"></line>
-            <line x1="33.9751" y1="138.92" x2="110.9591" y2="138.92" id="Stroke-27"></line>
-            <line x1="33.9751" y1="148.4092" x2="110.9591" y2="148.4092" id="Stroke-29"></line>
-            <line x1="33.9751" y1="158.5801" x2="73.9171" y2="158.5801" id="Stroke-31"></line>
-            <line x1="166.9898" y1="141.1397" x2="158.8098" y2="132.9597" id="Stroke-33"></line>
-            <path d="M164.3199,75.5728 C178.9429,90.1958 178.9429,113.9038 164.3199,128.5258 C149.6979,143.1478 125.9909,143.1478 111.3679,128.5258 C96.7459,113.9038 96.7459,90.1958 111.3679,75.5728 C125.9909,60.9508 149.6979,60.9508 164.3199,75.5728 Z" id="Stroke-35"></path>
-            <path d="M156.7212,83.1714 C167.1472,93.5974 167.1472,110.5014 156.7212,120.9264 C146.2952,131.3524 129.3922,131.3524 118.9662,120.9264 C108.5402,110.5014 108.5402,93.5974 118.9662,83.1714 C129.3922,72.7454 146.2952,72.7454 156.7212,83.1714 Z" id="Stroke-37"></path>
-            <line x1="139.813" y1="92.1578" x2="134.922" y2="112.0208" id="Stroke-39"></line>
-            <polyline id="Stroke-41" points="130.9087 95.9424 124.7357 102.1144 130.6957 108.0744"></polyline>
-            <polyline id="Stroke-43" points="144.8443 95.9424 151.0163 102.1144 145.0563 108.0744"></polyline>
-            <line x1="169.2925" y1="122.4776" x2="177.4725" y2="130.6566" id="Stroke-45"></line>
-            <path d="M208.6373,167.5342 L204.1363,172.0352 C200.7773,175.3942 195.3303,175.3942 191.9723,172.0352 L169.4613,149.5252 C166.1023,146.1662 166.1023,140.7212 169.4613,137.3612 L173.9623,132.8602 C177.3223,129.5012 182.7683,129.5012 186.1263,132.8602 L208.6373,155.3702 C211.9953,158.7292 211.9953,164.1762 208.6373,167.5342 Z" id="Stroke-47"></path>
+    <title>Illustrations / Documentation 2</title>
+    <defs>
+        <polygon id="path-1" points="0 0 129.5539 0 129.5539 196.4866 0 196.4866"></polygon>
+    </defs>
+    <g id="Illustrations-/-Documentation-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(44.000000, 30.783800)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-2"></g>
+            <path d="M127.6449,188.892 L17.2889,188.892 C11.9349,188.892 7.5939,184.552 7.5939,179.199 L7.5939,1.91 C7.5939,1.256 7.6619,0.618 7.7849,0 C3.3449,0.887 -0.0001,4.804 -0.0001,9.504 L-0.0001,186.792 C-0.0001,192.147 4.3399,196.487 9.6939,196.487 L120.0509,196.487 C124.7499,196.487 128.6669,193.141 129.5539,188.702 C128.9369,188.826 128.2989,188.892 127.6449,188.892" id="Fill-1" class="-fillPrimary" fill-opacity="0.5" fill="#E65025" mask="url(#mask-2)"></path>
         </g>
+        <path d="M181.3392,162.4472 L181.3392,209.9822 C181.3392,215.3362 176.9992,219.6762 171.6452,219.6762 L61.2882,219.6762 C55.9352,219.6762 51.5942,215.3362 51.5942,209.9822 L51.5942,32.6932 C51.5942,27.3402 55.9352,23.0002 61.2882,23.0002 L152.5782,23.0002 L181.3392,51.2372 L181.3392,87.1482" id="Stroke-4" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M152.5785,23 L152.5785,47.847 C152.5785,49.998 154.3225,51.742 156.4745,51.742 L181.3395,51.742" id="Stroke-6" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+        <line x1="77.974" y1="67.0293" x2="154.959" y2="67.0293" id="Stroke-8" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="77.974" y1="76.5176" x2="154.959" y2="76.5176" id="Stroke-10" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="77.974" y1="86.0068" x2="154.959" y2="86.0068" id="Stroke-12" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="77.974" y1="95.4961" x2="154.959" y2="95.4961" id="Stroke-14" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="77.974" y1="104.9853" x2="150.236" y2="104.9853" id="Stroke-16" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="77.974" y1="114.4736" x2="146.138" y2="114.4736" id="Stroke-18" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="77.974" y1="123.9629" x2="143.833" y2="123.9629" id="Stroke-20" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="77.974" y1="133.4521" x2="145.37" y2="133.2501" id="Stroke-22" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="77.974" y1="142.9414" x2="148.444" y2="142.9824" id="Stroke-24" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="77.974" y1="152.4306" x2="154.959" y2="152.4306" id="Stroke-26" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="77.974" y1="161.9189" x2="154.959" y2="161.9189" id="Stroke-28" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="77.974" y1="171.4082" x2="154.959" y2="171.4082" id="Stroke-30" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="77.974" y1="181.5791" x2="117.916" y2="181.5791" id="Stroke-32" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="210.9886" y1="164.1387" x2="202.8096" y2="155.9597" id="Stroke-34" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+        <path d="M208.3197,98.5722 C222.9417,113.1942 222.9417,136.9022 208.3197,151.5242 C193.6977,166.1462 169.9897,166.1462 155.3677,151.5242 C140.7457,136.9022 140.7457,113.1942 155.3677,98.5722 C169.9897,83.9502 193.6977,83.9502 208.3197,98.5722 Z" id="Stroke-36" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M200.7211,106.1709 C211.1471,116.5969 211.1471,133.4999 200.7211,143.9259 C190.2951,154.3519 173.3921,154.3519 162.9661,143.9259 C152.5401,133.4999 152.5401,116.5969 162.9661,106.1709 C173.3921,95.7449 190.2951,95.7449 200.7211,106.1709" id="Fill-38" class="-fillPrimary" fill-opacity="0.5" fill="#E65025"></path>
+        <line x1="183.8129" y1="115.1572" x2="178.9219" y2="135.0192" id="Stroke-40" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+        <polyline id="Stroke-42" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="174.9076 118.9424 168.7356 125.1144 174.6946 131.0734"></polyline>
+        <polyline id="Stroke-44" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="188.8431 118.9424 195.0151 125.1144 189.0561 131.0734"></polyline>
+        <line x1="213.2923" y1="145.4765" x2="221.4723" y2="153.6565" id="Stroke-46" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+        <path d="M252.6361,190.5342 L248.1351,195.0352 C244.7771,198.3932 239.3301,198.3932 235.9711,195.0352 L213.4611,172.5242 C210.1021,169.1662 210.1021,163.7202 213.4611,160.3602 L217.9621,155.8592 C221.3221,152.5002 226.7671,152.5002 230.1261,155.8592 L252.6361,178.3702 C255.9951,181.7282 255.9951,187.1752 252.6361,190.5342 Z" id="Stroke-48" stroke="#4F4F51" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
     </g>
 </svg>

@@ -30,7 +30,7 @@ panel.plugin("nsi/blocks", {
             <h2 v-html="content.headline" class="-margin"></h2>
             <ul class="features mosaic">
               <li class="mosaic__thumbnail" v-for="(item, index) in content.thumbnails" :key="'thumb_'+index">
-                <figure><img :src="item.image[0].url" alt="" /></figure>
+                <figure v-if="item.image[0]"><img :src="item.image[0].url" alt="" /></figure>
                 <div>{{ item.text }}</div>
               </li>
             </ul>
@@ -83,7 +83,7 @@ panel.plugin("nsi/blocks", {
           <div v-if="content.text && content.headline">
             <h2 v-html="content.headline"></h2>
             <div v-html="content.text"></div>
-            <figure><img :src="content.image[0].image.src" alt="content.image[0].image.text"/></figure>
+            <figure v-if="content.image[0]"><img :src="content.image[0].image.src" alt="content.image[0].image.text"/></figure>
           </div>
           <div v-else>Veuillez entrer un contenu...</div>
         </div>
