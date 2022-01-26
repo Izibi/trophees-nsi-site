@@ -407,8 +407,8 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .block.-step:nth-child(even) .block__step__number { left: 50%; transform: translateX(-50%)}
 
   /* Footer */
-  .footer { display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, auto); grid-template-areas: 'logo menu' 'legals legals'; }
-  .footer__logo { grid-area: logo; align-self: center;}
+  .footer { display: grid; grid-template-columns: 40% auto; grid-template-rows: repeat(2, auto); grid-template-areas: 'logo menu' 'legals legals'; }
+  .footer__logo { grid-area: logo; align-self: center; justify-self: end; }
   .footer__menu { grid-area: menu; display: flex; justify-content: flex-end; align-self: center; padding-right: var(--padding)}
   .footer__menu__entry { border-bottom: none; }
   .footer__legals { grid-area: legals; border-top: solid 1px rgba(0, 0, 0, 1) }
