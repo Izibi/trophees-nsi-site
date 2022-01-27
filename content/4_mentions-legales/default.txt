@@ -2,7 +2,19 @@ Title: Mentions légales
 
 ----
 
-Description: 
+Cover: 
+
+----
+
+Short: 
+
+----
+
+Description: *Page en cours de construction*
+
+----
+
+Blocks: 
 
 ----
 
