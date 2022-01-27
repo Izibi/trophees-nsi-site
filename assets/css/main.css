@@ -396,7 +396,8 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .block__features__title { text-align: center; }
 
   .block__mosaic { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1rem;}
-  .block__partners { grid-template-columns: repeat(4, 1fr) }
+  .block__partners { grid-template-columns: repeat(3, 1fr) }
+  .block__partners__partner__logo { padding-bottom: 50%;}
   .block__supports__partner { max-width: 40%; }
 
   .block.-step { display: grid; grid-template-columns: 1fr 1fr; grid-template-areas: 'text illustration'; grid-gap: 2rem; }
