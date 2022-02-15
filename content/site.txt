@@ -16,9 +16,9 @@ Logo:
 Footer-links:
 
 - a-propos
-- mentions-legales
 - espace-presse
+- mentions-legales
 
 ----
 
-Legals: Tous droits réservés Trophées NSI 2022
+Legals: Tous droits réservés - Les Trophées NSI 2022

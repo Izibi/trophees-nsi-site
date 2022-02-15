@@ -2,7 +2,9 @@ Title: Espace presse
 
 ----
 
-Cover: 
+Cover:
+
+- las-4465.jpg
 
 ----
 
@@ -10,8 +12,8 @@ Short: Espace communication
 
 ----
 
-Description: En cours de construction
+Description: Espace presse / supports de communication
 
 ----
 
-Blocks: 
+Blocks: [{"content":{"text":"<p>Charte graphique, affiches, visuels, communiqu\u00e9s... retrouvez tous les \u00e9l\u00e9ments utiles pour promouvoir les troph\u00e9es NSI aupr\u00e8s de vos cibles. <\/p>"},"id":"38e9af3c-6f4a-4915-8c05-1da5ee19672a","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Contenus \u00e0 t\u00e9l\u00e9charger"},"id":"a1dc36d3-8361-4268-80f1-a4d5c8059041","isHidden":false,"type":"heading"},{"content":{"level":"h3","text":"Dossier de pr\u00e9sentation"},"id":"ce26bdf3-250e-4e42-998c-2e82f3b43f23","isHidden":false,"type":"heading"},{"content":{"text":"<p><strong>Troph\u00e9es NSI et Journ\u00e9e nationale NSI<\/strong> : <a href=\"https:\/\/trophees-nsi.fr\/media\/pages\/espace-presse\/2165cbb18a-1644753621\/trophees-journee-nsi-presentation-13-02-2022.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Pr\u00e9sentation PDF<\/a> <em>(mise \u00e0 jour le 13-02-2022)<\/em><\/p>"},"id":"c9465eaf-2694-4299-ae96-bf37e765aa52","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Logos"},"id":"9208dbb1-5512-42f7-bc9e-b3d6ac86557f","isHidden":false,"type":"heading"},{"content":{"text":"<p><strong>Logo - orange : <\/strong><a href=\"https:\/\/trophees-nsi.fr\/media\/pages\/espace-presse\/4f54081fa3-1643755528\/trophees-nsi-logo-orange.png\" target=\"_blank\" rel=\"noopener noreferrer\">Format .PNG<\/a><\/p><p><strong>Logo - blanc : <\/strong><a href=\"https:\/\/trophees-nsi.fr\/media\/pages\/espace-presse\/ee1927e2c7-1643755734\/trophees-nsi-logo-blanc.png\" target=\"_blank\" rel=\"noopener noreferrer\">Format .PNG<\/a><\/p>"},"id":"a945451d-8dce-42f3-88b4-07639f8b5394","isHidden":false,"type":"text"},{"content":{"level":"h3","text":"Affiches"},"id":"f5a16f71-2658-4950-9cd2-08add8c1d18c","isHidden":false,"type":"heading"},{"content":{"text":"<p><strong>Affiches A4 - enseignants : <\/strong><a href=\"https:\/\/trophees-nsi.fr\/media\/pages\/espace-presse\/b628c55ebe-1644767048\/13-02-2022-affiche-enseignants.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Version standard<\/a> | <a href=\"https:\/\/trophees-nsi.fr\/media\/pages\/espace-presse\/1b1f038240-1644788354\/13-02-2022-affiche-enseignants-hd.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Version haute d\u00e9finition<\/a> <em>(mise \u00e0 jour le 13-02-2022)<\/em><\/p><p><strong>Affiche A4 - \u00e9l\u00e8ves<\/strong> : <a href=\"https:\/\/trophees-nsi.fr\/media\/pages\/espace-presse\/534f3592af-1644767056\/13-02-2022-affiche-eleves.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Version standard<\/a> | <a href=\"https:\/\/trophees-nsi.fr\/media\/pages\/espace-presse\/1d17b3825a-1644787860\/13-02-2022-affiche-eleves-hd.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Version haute d\u00e9finition<\/a> <em>(mise \u00e0 jour le 13-02-2022)<\/em><\/p>"},"id":"21852cf2-ba56-4f13-9c57-35b3ae1d2ee9","isHidden":false,"type":"text"},{"content":{"level":"h3","text":"Visuels"},"id":"de3cfdb4-8422-4da6-8b8b-9f41c572afc6","isHidden":false,"type":"heading"},{"content":{"text":"<p><strong>Format carr\u00e9, adapt\u00e9 pour les r\u00e9seaux sociaux<\/strong> <\/p><p><a href=\"https:\/\/trophees-nsi.fr\/\/espace-presse\/visuel-rs-02-02-2022.zip\" rel=\"noopener noreferrer\">T\u00e9l\u00e9chargez le fichier zip<\/a> : 4 visuels <em>(mise \u00e0 jour le 02-02-2022)<\/em><\/p>"},"id":"bd27fed2-4d5b-4963-862f-cc06690538f0","isHidden":false,"type":"text"}]
