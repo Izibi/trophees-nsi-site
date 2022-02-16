@@ -4,6 +4,8 @@
 
     <h2 class="secondaryTitle"><?= $block->headline() ?></h2>
 
+    <div class="block__intro -plain"><?= $block->text()->kirbytext() ?></div>
+
     <ul class="block__partners">
       <?php foreach ($block->partners()->toStructure() as $key => $partner): ?>
         <li class="block__partners__partner">
@@ -34,7 +36,7 @@
       <?php endforeach; ?>
     </ul>
 
-    <div class="block__intro -plain"><?= $block->text()->kirbytext() ?></div>
+    <div class="block__intro -plain"><?= $block->conclusion()->kirbytext() ?></div>
 
   </div>
 
