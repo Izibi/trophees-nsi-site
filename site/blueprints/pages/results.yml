@@ -1,0 +1,103 @@
+title: Resultats
+
+tabs:
+
+  settings:
+    label: Paramètres de la page
+    icon: text
+    sections:
+      settings:
+        type: fields
+        fields:
+          cover: fields/cover
+          intro_headline:
+            type: headline
+            label: Informations de la page
+          short: fields/short
+          description:
+            type: textarea
+            label: Description de la page
+          awards_titles:
+            type: structure
+            label: Liste des intitulés de prix
+            fields:
+              award_title:
+                type: text
+                label: Titre du prix
+  national:
+    label: Résultats nationaux
+    icon: text
+    sections:
+      content_national:
+        type: fields
+        fields:
+          headline_national:
+            label: Titre
+            type: text
+          blocks_national:
+            label: Lauréats
+            type: blocks
+            fieldsets:
+              blocks_layout:
+                label: Spéciaux
+                type: group
+                fieldsets:
+                  - results-national
+                  - results-regional
+                  - features
+                  - paragraph
+                  - mosaic
+                  - calendar
+                  - partners
+                  - step
+              blocks_content:
+                label: Blocs courants
+                type: group
+                fieldsets:
+                  - heading
+                  - text
+                  - list
+                  - image
+                  - gallery
+                  - video
+                  - code
+                  - markdown
+
+  regional:
+    label: Résultats régionaux
+    icon: text
+    sections:
+      content_regional:
+        type: fields
+        fields:
+          headline_regional:
+            label: Titre
+            type: text
+          blocks_regional:
+            label: Lauréats
+            type: blocks
+            fieldsets:
+              blocks_layout:
+                label: Spéciaux
+                type: group
+                fieldsets:
+                  - results-national
+                  - results-regional
+                  - features
+                  - paragraph
+                  - mosaic
+                  - calendar
+                  - partners
+                  - step
+              blocks_content:
+                label: Blocs courants
+                type: group
+                fieldsets:
+                  - heading
+                  - text
+                  - list
+                  - image
+                  - gallery
+                  - video
+                  - code
+                  - markdown

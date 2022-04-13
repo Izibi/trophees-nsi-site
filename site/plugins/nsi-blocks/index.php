@@ -7,6 +7,8 @@ Kirby::plugin('nsi/blocks', [
     'blocks/calendar' => __DIR__ . '/blueprints/calendar.yml',
     'blocks/partners' => __DIR__ . '/blueprints/partners.yml',
     'blocks/step' => __DIR__ . '/blueprints/step.yml',
+    'blocks/results-national' => __DIR__ . '/blueprints/results-national.yml',
+    'blocks/results-regional' => __DIR__ . '/blueprints/results-regional.yml',
   ],
   'snippets' => [
     'blocks/features' => __DIR__ . '/snippets/features.php',
@@ -15,6 +17,8 @@ Kirby::plugin('nsi/blocks', [
     'blocks/calendar' => __DIR__ . '/snippets/calendar.php',
     'blocks/partners' => __DIR__ . '/snippets/partners.php',
     'blocks/step' => __DIR__ . '/snippets/step.php',
+    'blocks/results-national' => __DIR__ . '/snippets/results-national.php',
+    'blocks/results-regional' => __DIR__ . '/snippets/results-regional.php',
     // more snippets
   ],
 ]);

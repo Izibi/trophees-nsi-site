@@ -1,17 +1,5 @@
 <?= snippet('header') ?>
 
-<?php
-$news = $page->news()->toStructure();
-
-function selectNews($news) {
-  foreach ($news as $key => $article) {
-    if($article->published() == 'true') return $article;
-  };
-  return null;
-};
-
-?>
-
 <header class="header -decoBottom">
 
   <!-- Cover -->

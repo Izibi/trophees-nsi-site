@@ -1,0 +1,28 @@
+name: Résultats nationaux
+icon: star
+
+fields:
+  awards:
+    type: structure
+    label: Liste des lauréats nationaux
+    fields:
+      award:
+        type: text
+        label: Intitulé du prix
+      gain:
+        type: text
+        label: Récompense
+      headline:
+        type: text
+        label: Titre du projet
+      description:
+        type: textarea
+        label: Description
+      picture:
+        type: files
+        label: La photo
+        max: 1
+        layout: cardlets
+      video:
+        type: url
+        label: Lien vers la vidéo du projet

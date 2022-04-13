@@ -1,0 +1,32 @@
+name: Résultats régionaux
+icon: star-outline
+
+fields:
+  regions:
+    type: structure
+    label: Liste des lauréats régionaux
+    fields:
+      name:
+        type: text
+        label: Nom de la région
+      awards:
+        type: structure
+        label: Lauréats de la région
+        fields:
+          award:
+            type: select
+            label: Le prix
+            options: query
+            query:
+              fetch: page.awards_titles.toStructure
+              text: "{{ structureItem.award_title }}"
+              value: "{{ structureItem }}"
+          headline:
+            type: text
+            label: Titre du projet
+          school:
+            type: text
+            label: Nom de l'établissement scolaire
+          link:
+            type: url
+            label: Lien vers une page au choix

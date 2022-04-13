@@ -1,0 +1,40 @@
+Title: Résultats
+
+----
+
+Cover: 
+
+----
+
+Short: 
+
+----
+
+Description: 
+
+----
+
+Awards-titles:
+
+- 
+  award_title: 'Meilleur projet - Terminale'
+- 
+  award_title: Ultra prix
+- 
+  award_title: Nouveau prix
+
+----
+
+Headline-national: Résultats nationaux
+
+----
+
+Blocks-national: [{"content":{"awards":[{"award":"Prix du meilleur projet - Premi\u00e8re","gain":"Prix : Des bonbons au chocolat et un iPad","headline":"La fabrique des possibles","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sem turpis, ultricies id tempus quis, pharetra non neque. \n\n**Avec des \u00e9l\u00e8ves du Lyc\u00e9e Camille CLAUDEL : **\n\n- Georgia O\u2019KEEFFE\n- Niki DE SAINT-PHALLE\n- Jean MONNET\n- Egard DEGAS\n- Egon SCHIELE","picture":["dummy.png"],"video":"http:\/\/www.youtu.be"},{"award":"Prix du meilleur projet - Terminale","gain":"Prix : Des bonbons au chocolat et un iPad","headline":"La fabrique des possibles","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sem turpis, ultricies id tempus quis, pharetra non neque. \n\n**Avec des \u00e9l\u00e8ves du Lyc\u00e9e Camille CLAUDEL : **\n\n- Georgia O\u2019KEEFFE\n- Niki DE SAINT-PHALLE\n- Jean MONNET\n- Egard DEGAS\n- Egon SCHIELE","picture":["dummy.png"],"video":"http:\/\/www.youtu.be"}]},"id":"7c67e454-38b0-4e1b-b56b-fe45408dfd09","isHidden":false,"type":"results-national"}]
+
+----
+
+Headline-regional: Lauréats régionaux
+
+----
+
+Blocks-regional: [{"content":{"regions":[{"name":"Auvergne Rh\u00f4ne-Alpes","awards":[{"award":"0","headline":"Le cyclotron","school":"Jean Monnnet","link":""},{"award":"1","headline":"Ribambelle","school":"Jean Rochefort","link":"http:\/\/www.france-ioi.org"},{"award":"2","headline":"SUper","school":"cool","link":""}]},{"name":"Grand est","awards":[{"award":"0","headline":"Le cyclotron","school":"Jean Monnnet","link":""},{"award":"1","headline":"Ribambelle","school":"Jean Rochefort","link":"http:\/\/www.france-ioi.org"},{"award":"2","headline":"SUper","school":"cool","link":""}]}]},"id":"6d96f173-9c91-44cb-9379-5764dc18726c","isHidden":false,"type":"results-regional"}]
