@@ -15,7 +15,7 @@ fields:
         fields:
           award:
             type: select
-            label: Le prix
+            label: Intitulé du prix
             options: query
             query:
               fetch: page.awards_titles.toStructure

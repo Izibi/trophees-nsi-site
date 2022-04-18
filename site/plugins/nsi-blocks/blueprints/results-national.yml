@@ -7,8 +7,13 @@ fields:
     label: Liste des lauréats nationaux
     fields:
       award:
-        type: text
-        label: Intitulé du prix
+        type: select
+        label: Intitulé prix
+        options: query
+        query:
+          fetch: page.awards_titles.toStructure
+          text: "{{ structureItem.award_title }}"
+          value: "{{ structureItem }}"
       gain:
         type: text
         label: Récompense
