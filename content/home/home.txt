@@ -16,7 +16,7 @@ News:
 
 - 
   date: 2022-01-13
-  text: '**CONCOURS OUVERT** : Vous avez jusqu’au 5 mai 2022, 23h59 pour (link: https://depot.trophees-nsi.fr target: _blank text: **déposer les projets de vos élèves**.)'
+  text: '**DERNIERES HEURES** : Vous avez jusqu’au vendredi 06 mai, 13h pour (link: https://depot.trophees-nsi.fr target: _blank text: **finaliser le dépôt de projets de vos élèves**.)'
   published: 'true'
 - 
   date: 2022-01-15
