@@ -25,22 +25,38 @@ endforeach;
           <?php foreach ($region->awards()->toStructure() as $key => $award): ?>
           <li class="block__region__awward">
 
-            <!-- Link -->
-            <?php if ($award->link()->isNotEmpty()): ?>
-            <a class="block__region__awward__link" href="<?= $award->link() ?>" target="_blank">
-            <?php endif ?>
-
             <!-- Table row -->
             <div class="block__region__awward__row">
               <?php $i = $award->award()->toInt() ?>
                 <p class="block__region__awward__award"><?= $awardmap[$i] ?></p>
                 <p class="block__region__awward__project"><?= $award->headline() ?></p>
                 <p class="block__region__awward__school"><?= $award->school() ?></p>
+                <div class="block__region__awward__links">
+                  <?php if ($award->link()->isNotEmpty()): ?>
+                    <p class="block__region__awward__pdf">
+                      <a href="<?= $award->link() ?>" target="_blank">
+                        <?= asset('assets/img/icon-doc.svg')->read() ?>
+                        <span class="block__region__awward__link__label">Présentation</span>
+                      </a>
+                    </p>
+                  <?php endif ?>
+                  <?php if ($award->video_link()->isNotEmpty()): ?>
+                    <p class="block__region__awward__video">
+                      <a href="<?= $award->video_link() ?>" targt="_blank">
+                        <?= asset('assets/img/icon-play.svg')->read() ?>
+                        <span class="block__region__awward__link__label">Vidéo</span>
+                      </a>
+                    </p>
+                  <?php endif ?>
+                </div>
             </div>
 
-            <?php if ($award->link()->isNotEmpty()): ?>
-            </a>
+            <?php if ($award->team()->isNotEmpty()): ?>
+              <div class="block__region__awward__team">
+                <?= $award->team()->kirbyText() ?>
+              </div>
             <?php endif ?>
+
           </li>
           <?php endforeach; ?>
         </ul>

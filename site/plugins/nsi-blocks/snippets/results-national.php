@@ -1,4 +1,12 @@
-<?php //if($block->headline()->isNotEmpty()): ?>
+<?php //if($block->headline()->isNotEmpty()):
+$awardtitles = $page->awards_titles()->toStructure();
+$awardmap = [];
+
+foreach ($awardtitles as $key => $award):
+  $awardmap[] = $award->award_title();
+endforeach;
+
+?>
 
   <div class="block -<?= $block->type() ?>">
 
@@ -7,8 +15,11 @@
         <div class="block__award">
 
           <!-- Titles -->
-          <h3 class="block__award__awardTitle thirdTitle -secondaryColor"><?= $award->award() ?></h3>
-          <p class="block__award__gain -primaryColor"><?= $award->gain() ?></p>
+          <?php $i = $award->award()->toInt() ?>
+          <h3 class="block__award__awardTitle thirdTitle -secondaryColor"><?= $awardmap[$i] ?></h3>
+          <?php if ($award->gain()->isNotEmpty()): ?>
+            <p class="block__award__gain -primaryColor"><?= $award->gain() ?></p>
+          <?php endif ?>
 
           <!-- Content -->
           <div class="block__award__content">

@@ -30,3 +30,9 @@ fields:
           link:
             type: url
             label: Lien vers une page au choix
+          video_link:
+            type: url
+            label: Lien vers une vidéo au choix
+          team:
+            type: textarea
+            label: Les membres de l'équipe

@@ -227,8 +227,8 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .block__step__illustration svg { width: 100%; height: auto; position: absolute; left: 50%; top: 50%; transform: translateX(-50%) translateY(-50%); }
 
   .block__award { border-bottom: solid 1px rgba(0, 0, 0, .2); padding-bottom: 2.5rem }
-  .block__award__awardTitle { margin-bottom: 0; display: none; }
-  .block__award__gain { margin-bottom: 1rem; font-size: 2em; }
+  .block__award__awardTitle { margin-bottom: .4rem;}
+  .block__award__gain { margin-bottom: 1rem;}
   .block__award__picture { width: 100%; }
   .block__award__picture__link { display: block; position: relative; width: 100%;}
   .block__award__picture__image { width: 100%; position: relative; background-color: var(--primary)}
@@ -250,6 +250,9 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .block__region__awward { margin-bottom: 1rem }
   .block__region__awward a { display: block; width: 100%; height: 100%; position: relative;}
   .block__region__awward__award { font-weight: 700 }
+  .block__region__awward__links { display: flex; gap: 1rem;}
+  .block__region__awward__link__label { display: none}
+  .block__region__awward__team { color: var(--primary); margin-top: 1rem;}
   .block.-results-national { padding-top: 0; }
 
   .pagetabs { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 1rem; margin: 0 var(--padding); border-bottom: solid 1px rgba(0, 0, 0, .2);  }
@@ -374,6 +377,11 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .menu .header__brand { display: none; }
 }
 
+@media only screen and (max-width: 720px) and (orientation: portrait) {
+  .block__region__awward__links { margin-top: .5rem;}
+  .block__region__awward__link__label { display: inline}
+}
+
 
 @media only screen and (max-width: 720px) and (orientation: landscape) {
 
@@ -395,8 +403,8 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .block__award__content { display: grid; grid-template-columns: 300px auto; grid-gap: 1rem; }
   .block__award__headline { margin: 0 0 .5rem }
 
-  .block__region__awward__row { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1rem; }
-  .block__region__awward__school  text-align: right
+  .block__region__awward__row { display: grid; grid-template-columns: repeat(3, 1fr) 3.5rem; grid-gap: 1rem; }
+  .block__region__awward__school  {text-align: right}
 
   /* Footer */
   .footer { display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, auto); grid-template-areas: 'logo menu' 'legals legals'; }
@@ -452,8 +460,11 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .block__award__content { display: grid; grid-template-columns: 300px auto; grid-gap: 1rem; }
   .block__award__headline { margin: 0 0 .5rem }
 
-  .block__region__awward__row { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1rem; }
+  .block__region__awward__row { display: grid; grid-template-columns: repeat(3, 1fr) 3.5rem; grid-gap: 1rem; }
+  .block__region__awward__pdf,
+  .block__region__awward__video { justify-self: center; }
   .block__region__awward__school  { text-align: right }
+  .block__region__awward__team { font-size: .8rem; margin-top: 0; padding-left: calc(30% + 6px)}
   .block.-results-national,
   .block.-results-regional { padding-top: 1rem; }
 
