@@ -17,15 +17,23 @@ News:
 - 
   date: 2022-01-13
   text: '**DERNIERES HEURES** : Vous avez jusqu’au vendredi 06 mai, 13h pour (link: https://depot.trophees-nsi.fr target: _blank text: **finaliser le dépôt de projets de vos élèves**.)'
-  published: 'true'
-- 
-  date: 2022-01-15
-  text: Une news déplublié
   published: 'false'
 - 
   date: 2022-01-22
   text: "Lancement imminent : <b>(link: https://depot.trophees-nsi.fr target: _blank text: INSCRIVEZ-VOUS)</b> dès maintenant pour recevoir en avant-première la date d'ouverture !"
   published: 'false'
+- 
+  date: 2022-05-29
+  text: 'FINALE : Découvrez les (link: https://trophees-nsi.fr/resultats text: **lauréats régionaux**) sélectionnés pour la finale nationale des Trophées NSI 2022 !'
+  published: 'false'
+- 
+  date: 2022-06-06
+  text: 'FINALE | Mardi 07 juin, de 14h à 16h, à distance : Participez à la **(link: https://us02web.zoom.us/j/2958149624?pwd=cE5ZTmd3QXlybmZ0OW4xc0dCN2kwZz09 text: cérémonie de remise des Trophées NSI 2022)** (code secret : 011294)'
+  published: 'false'
+- 
+  date: 2022-06-07
+  text: 'RÉSULTATS | Découvrez les (link: https://trophees-nsi.fr/resultats text: **7 lauréats nationaux**) des Trophées NSI 2022 ! BRAVO à tous les élèves pour leur contribution à ce concours.'
+  published: 'true'
 
 ----
 
