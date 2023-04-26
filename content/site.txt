@@ -4,8 +4,8 @@ Title: Les trophées NSI
 
 Menu-links:
 
-- preparer-votre-participation
-- le-reglement
+- participation
+- reglement
 - resultats
 
 ----
@@ -17,9 +17,10 @@ Logo:
 Footer-links:
 
 - a-propos
-- espace-presse
+- documentation
+- faq
 - mentions-legales
 
 ----
 
-Legals: Tous droits réservés - Les Trophées NSI 2022
+Legals: Tous droits réservés - Les Trophées NSI 2023
