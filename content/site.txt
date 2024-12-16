@@ -7,7 +7,7 @@ Menu-links:
 - participation
 - candidature
 - reglement
-- resultats-2023
+- resultats-2024
 
 ----
 
@@ -17,9 +17,9 @@ Logo:
 
 Footer-links:
 
-- communication
-- faq
 - a-propos
+- faq
+- resultats-2023
 - mentions-legales
 
 ----
