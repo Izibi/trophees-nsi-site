@@ -210,7 +210,7 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .block__calendar__date__day { font-family: var(--typoHeadings), sans-serif; text-transform: uppercase; font-size: 2.3rem }
   .block__calendar__date__hour { font-family: var(--typoHeadings), sans-serif; text-transform: uppercase; font-size: 1rem; margin-bottom: .5rem; }
 
-  .block__partners { list-style: none; display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1.5rem; margin-bottom: 3rem; position: relative; }
+  .block__partners { list-style: none; display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1.5rem; margin: 3rem 0; position: relative; }
   .block__partners__partner__logo { position: relative; height: 100%; padding-bottom: 100%; }
   .block__partners__partner__logo a { position: absolute; left: 0; top: 0; display: flex; width: 100%; height: 100%; justify-content: center; align-items: center; }
   .block__partners__partner__logo a:hover { padding: 0 }
@@ -268,7 +268,9 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .footer__menu { list-style: none; }
   .footer__menu__entry { text-align: center; padding : 1rem; border-bottom: solid 1px rgba(0, 0, 0,.2); font-weight: 700}
   .footer__menu__entry a { display: block; text-decoration: none;}
-  .footer__legals{ padding : 1rem; text-align: center; opacity: .2 }
+  .footer__socials { grid-area: socials; display: flex; gap: 1rem; padding: 1rem; justify-content: center; align-items: center; }
+  .footer__socials path { fill: var(--white) }
+  .footer__legals{ display: flex; justify-content: center; align-items: center; padding : 1rem; text-align: center; opacity: .2 }
 
   /* 3. Home */
   .home .cover { position: relative; padding: var(--padding); background-color: var(--primary); color: white; min-height: 100vh;}
@@ -407,10 +409,12 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .block__region__awward__school  {text-align: right}
 
   /* Footer */
-  .footer { display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, auto); grid-template-areas: 'logo menu' 'legals legals'; }
-  .footer__logo { grid-area: logo; align-self: center;}
-  .footer__menu { grid-area: menu; display: flex; justify-content: flex-end; align-self: center; padding-right: var(--padding)}
+  .footer { display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(3, 1fr); grid-template-areas: 'logo menu' 'logo socials' 'legals legals'; }
+  .footer__logo { grid-area: logo; align-self: center; padding-left: var(--padding)}
+  .footer__logo svg { width: 100%;}
+  .footer__menu { grid-area: menu; display: flex; justify-content: flex-end; align-self: end; padding-right: var(--padding)}
   .footer__menu__entry { border-bottom: none; }
+  .footer__socials { padding: 0; }
   .footer__legals { grid-area: legals; border-top: solid 1px rgba(0, 0, 0, 1) }
 }
 
@@ -469,10 +473,12 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .block.-results-regional { padding-top: 1rem; }
 
   /* Footer */
-  .footer { display: grid; grid-template-columns: 40% auto; grid-template-rows: repeat(2, auto); grid-template-areas: 'logo menu' 'legals legals'; }
+  .footer { display: grid; grid-template-columns: 33% auto; grid-template-rows: repeat(3, 1fr); grid-template-areas: 'logo menu' 'logo socials' 'legals legals'; }
   .footer__logo { grid-area: logo; align-self: center; justify-self: end; }
-  .footer__menu { grid-area: menu; display: flex; justify-content: flex-end; align-self: center; padding-right: var(--padding)}
+  .footer__logo svg { width: 100%;}
+  .footer__menu { grid-area: menu; display: flex; justify-content: flex-end; align-self: end; padding-right: var(--padding)}
   .footer__menu__entry { border-bottom: none; }
+  .footer__socials { padding: 0; }
   .footer__legals { grid-area: legals; border-top: solid 1px rgba(0, 0, 0, 1) }
 }
 

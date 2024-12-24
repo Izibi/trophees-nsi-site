@@ -14,6 +14,16 @@
     <?php endforeach; ?>
   </ul>
 
+  <?php if ($site->social_networks()->isNotEmpty()) : ?>
+    <ul class="footer__socials">
+      <?php foreach ($site->social_networks()->toStructure() as $network): ?>
+        <a class="footer__socials__network" href="<?= $network->url() ?>">
+          <?= asset('assets/img/'.$network->type().'-logo-fill.svg')->read() ?>
+        </a>
+      <?php endforeach; ?>
+    </ul>
+  <?php endif ?>
+
   <div class="footer__legals">
     <?= $site->legals() ?>
   </div>
