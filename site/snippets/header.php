@@ -33,7 +33,7 @@
     'assets/fonts/bebas/index.css',
     'assets/fonts/roboto-slab/index.css',
     'assets/css/normalize.css',
-    'assets/css/main.min.css',
+    'assets/css/main.css',
   ]) ?>
 
   <meta name="theme-color" content="#E94E1B">

@@ -22,6 +22,31 @@
 
 </header>
 
+<?php if($results = $site->children()->filter('template', '==', 'results')->sortBy('title', 'desc')): ?>
+<ul class="results__selector">
+  <?php foreach ($results as $result): ?>
+  <li>
+    <a class="<?php e($result->isOpen(), '-active') ?>" href="<?= $result->url() ?>">
+      <?= $result->title() ?>
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+<?php endif ?>
+
+<?php if($stats = $page->statistics()->toStructure()): ?>
+  <div class="statistic__container">
+    <ul class="statistics">
+      <?php foreach ($stats as $stat): ?>
+      <li class="statistic">
+        <p class="statistic__number"><?= $stat -> number() ?></p>
+        <p class="statistic__label"><?= $stat -> label() ?></p>
+      </li>
+      <?php endforeach ?>
+    </ul>
+  </div>
+<?php endif ?>
+
 <div class="pagetabs">
   <div id="tabn" class="tab tabs__first -active">
     <h2 class="secondaryTitle -secondaryColor"><?= $page->headline_national() ?></h2>

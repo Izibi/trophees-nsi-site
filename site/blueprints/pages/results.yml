@@ -24,6 +24,16 @@ tabs:
               award_title:
                 type: text
                 label: Titre du prix
+          statistics:
+            type: structure
+            label: Quelques chiffres sur cette édition
+            fields:
+              number:
+                label: Chiffre
+                type: number
+              label:
+                label: Libellé
+                type: text
   national:
     label: Résultats nationaux
     icon: text
