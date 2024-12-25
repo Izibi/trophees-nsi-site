@@ -24,6 +24,7 @@ fields:
           - paragraph
           - mosaic
           - calendar
+          - jury
           - partners
           - partners-cardlets
           - step

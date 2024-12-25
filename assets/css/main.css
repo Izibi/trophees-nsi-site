@@ -230,6 +230,13 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .block__partnersVerbatim__partner__text { display: flex; flex-direction: column; gap: 0.25rem;}
   .block__partnersVerbatim__partner__name { font-weight: 700; }
 
+  .block__jury { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem;}
+  .block__jury__partner { list-style: none; }
+  .block__jury__partner a { display: flex; gap: 1rem; text-decoration: none;}
+  .block__jury__partner__logo img { max-width: 100px; }
+  .block__jury__partner__text { display: flex; flex-direction: column; gap: 0.25rem;}
+  .block__jury__partner__name { font-weight: 700; }
+
   .block__step { margin-bottom: 3rem;}
   .block__step__number { position: absolute; font-family: var(--typoHeadings); color: var(--dark); font-size: 9rem; opacity: .2; top: -6px; left: -4px; line-height: 7.4rem;}
   .block__step__title { margin-top: 0;}
