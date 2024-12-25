@@ -34,7 +34,8 @@
 </ul>
 <?php endif ?>
 
-<?php if($stats = $page->statistics()->toStructure()): ?>
+<?php if($page->statistics()->isNotEmpty()): 
+  $stats = $page->statistics()->toStructure() ?>
   <div class="statistic__container">
     <ul class="statistics">
       <?php foreach ($stats as $stat): ?>
