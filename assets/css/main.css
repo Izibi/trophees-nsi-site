@@ -159,6 +159,8 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .content > *:first-child:not(.block) { padding-top: 3rem }
   .content > *:last-child:not(.block) { padding-bottom: 8rem }
   .content > ul li { margin-left: 1rem; padding-left: .5em}
+  .content iframe {  width: 100%; aspect-ratio: 16/9;}
+  .content figcaption {  margin-top: 0.5rem }
 
   .header { position: relative; min-height: 85vh; width: 100%; padding: var(--padding); background-color: var(--primary); color: var(--white); display: flex; flex-direction: column; justify-content: center; align-items: center; overflow: hidden;}
   .header .menu { position: absolute; top: 0; left: 0; width: 100%; padding: calc(var(--padding) / 2) var(--padding); box-sizing: border-box}
