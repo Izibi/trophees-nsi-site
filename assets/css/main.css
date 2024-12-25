@@ -103,7 +103,7 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   :root {
     --primary: #E94E1B;
     --white: #ffffff;
-    --dark: #003947;
+    --dark: #2E69FF;
 
     /* Géometry */
     --padding: 2rem;
@@ -111,7 +111,7 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
 
     /* Typography */
     --typoPlain: 'Roboto Slab';
-    --typoHeadings: 'Bebas';
+    --typoHeadings: 'Anton';
   }
 
   /* 1. Typography */
@@ -120,7 +120,7 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
 
   .primaryTitle,
   .secondaryTitle,
-  .thirdTitle { font-family: var(--typoHeadings), sans-serif; text-transform: uppercase; }
+  .thirdTitle { font-family: var(--typoHeadings), sans-serif; text-transform: uppercase; transform: rotate(-2deg) translateY(-0.25em); }
 
   .primaryTitle { font-size: 3.5rem; text-align: center; line-height: 1em; font-weight: 400 }
   .secondaryTitle { color: var(--primary); font-size: 2.5rem; font-weight: 400; line-height: 1em; text-align: left; position: relative;}
@@ -147,13 +147,13 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .menu__home.-active svg path { fill: var(--primary) } */
   .menu__home a { width: 40px; height: 40px; display: flex; justify-content: center; align-items: center; }
 
-  .button { display: block; text-decoration: none; background-color: var(--dark); color: white; font-family: 'Bebas', sans-serif; font-size: 1.5rem; padding: 1em; border-radius: 4em; text-align: center; transition: background-color .2s ease-out; }
+  .button { display: block; text-decoration: none; background-color: var(--dark); color: white; font-family:var(--typoHeadings), sans-serif; font-size: 1.5rem; padding: 1em; border-radius: 1em; text-align: center; transition: background-color .2s ease-out; }
   .button:hover { background-color: var(--primary); color: white; }
 
   .-bgImg { width: 100%; height: 100%; overflow: hidden; position: absolute; top: 0; left: 0;}
   .-bgImg img { min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; object-fit: cover; filter: grayscale(1); opacity: .2}
 
-  .-decoBottom:after {  content:" "; display: block; position: absolute; right: 20%; bottom: 0; background-image: url('../img/deco-slash-white.svg'); background-repeat: no-repeat; background-position: center; height: 118px; width: 44px;  transform: translateY(50%); }
+  /* .-decoBottom:after {  content:" "; display: block; position: absolute; right: 20%; bottom: 0; background-image: url('../img/deco-slash-white.svg'); background-repeat: no-repeat; background-position: center; height: 118px; width: 44px;  transform: translateY(50%); } */
 
   .content { padding: 0 var(--padding); }
   .content > *:first-child:not(.block) { padding-top: 3rem }
@@ -187,10 +187,10 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .block__features__text { align-self: center;}
   .block__features__feature { margin-bottom: .5em; list-style: none; }
   .block__features__feature:before { content: " "; display: inline-block; background-color: var(--primary); width: 8px; height: 8px; margin-right: 1rem; transform: translateY(-2px); }
-  .block.-deco { overflow: hidden; }
+  /* .block.-deco { overflow: hidden; }
   .block.-deco:before,
   .block.-deco:after { content:" "; display: block; position: absolute; left: 50%; top: 0; background-image: url('../img/deco-slash.svg'); background-repeat: no-repeat; background-position: center; height: 118px; width: 44px;  transform: translateY(-50%) translateX(-50%);}
-  .block.-deco:after { top: auto; bottom: 0; transform: translateY(50%) translateX(-50%); }
+  .block.-deco:after { top: auto; bottom: 0; transform: translateY(50%) translateX(-50%); } */
 
   .block__paragraph { position: relative; align-self: center }
   .block__paragraph__intro { font-weight: 700; margin-bottom: .5rem; }
@@ -250,7 +250,7 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .block__award__picture__link { display: block; position: relative; width: 100%;}
   .block__award__picture__image { width: 100%; position: relative; background-color: var(--primary)}
   .block__award__picture__image > img { width: 100%; height: auto; transition: all .3s ease-out}
-  .block__award__picture__button { position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%); width: max-content; padding: 1rem 2rem; background-color: var(--primary); color: white; border-radius: 2.5rem; transition: background-color .3s ease-out}
+  .block__award__picture__button { position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%); width: max-content; padding: 1rem 2rem; font-family: var(--typoHeadings), sans-serif; background-color: var(--dark); color: white; border-radius: 1rem; transition: background-color .3s ease-out}
   .block__award__picture__image:hover .block__award__picture__button { background-color: var(--dark) }
   .block__award__picture__image:hover > img { filter: grayscale(1); opacity: .2 }
   .block__award__picture__button__icon { width: 20px; height: 20px; margin-right: .5rem }
@@ -295,8 +295,8 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
 
   .cover { display: flex; flex-direction: column; justify-content: space-between;}
   .cover .secondaryTitle { color: var(--white) }
-  .cover__brand { margin: 0; text-align: center; position: relative }
-  .cover__brand svg { width: 70%; height: auto;}
+  .cover__brand { margin: 0; text-align: center; position: relative;}
+  .cover__brand svg { width: 70%; height: auto; max-width: 400px;}
   .cover__news { position: relative; }
   .cover__news__title { margin-bottom: 1rem }
 
@@ -488,7 +488,7 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .block.-step:nth-child(even) { grid-template-areas: 'illustration text';}
   .block__step { grid-area: text }
   .block__step__illustration { grid-area: illustration }
-  .block__step__number { left: 36px; font-size: 10rem; top: 0; }
+  .block__step__number { left: 36px; font-size: 10rem; top: 11px; }
   .block.-step:nth-child(even) .block__step__number { left: 50%; transform: translateX(-50%)}
 
   .block__award__content { display: grid; grid-template-columns: 300px auto; grid-gap: 1rem; }
@@ -498,7 +498,7 @@ li { margin: 0; padding: 0; box-sizing: border-box;}
   .block__region__awward__pdf,
   .block__region__awward__video { justify-self: center; }
   .block__region__awward__school  { text-align: right }
-  .block__region__awward__team { font-size: .8rem; margin-top: 0; padding-left: calc(30% + 6px)}
+  .block__region__awward__team { font-size: .8rem; margin-top: 0; padding-left: calc(30% + 21px)}
   .block__national__awward__team { font-size: .8rem; margin-top: 1.5rem; padding-left: 1rem;}
   .block.-results-national,
   .block.-results-regional { padding-top: 1rem; }
