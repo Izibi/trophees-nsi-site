@@ -25,6 +25,7 @@ fields:
           - mosaic
           - calendar
           - partners
+          - partners-cardlets
           - step
       blocks_content:
         label: Blocs courants
