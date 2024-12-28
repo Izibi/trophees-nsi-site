@@ -22,6 +22,25 @@ sections:
       footer_links:
         type: pages
         label : Menu du pied de page
+      social_networks:
+        label: Réseaux sociaux
+        type: structure
+        fields:
+          type:
+            type: select
+            label: Plateforme
+            options:
+              linkedin: linkedIn
+              x: X
+              facebook: Facebook
+              instagram: Instagram
+              tiktok: TikTok
+              snapchat: Snapchat
+              youtube: YouTube
+              twitch: twitch
+          url:
+            type: url
+            label: URL du compte
       legals:
         type: text
         label: Mention sur les droits réservés

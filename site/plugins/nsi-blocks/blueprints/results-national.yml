@@ -28,6 +28,13 @@ fields:
         label: La photo
         max: 1
         layout: cardlets
+      team:
+        type: textarea
+        label: Les membres de l'équipe
       video:
         type: url
         label: Lien vers la vidéo du projet
+      pdf:
+        type: files
+        label: Le PDF de présentation
+        max: 1

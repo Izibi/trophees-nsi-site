@@ -41,6 +41,14 @@ endforeach;
             <div class="block__award__text">
               <h3 class="block__award__headline thirdTitle"><?= $award->headline() ?></h3>
               <div class="block__award__description"><?= $award->description()->kirbytext() ?></div>
+              <?php if ($pdf = $award->pdf()->toFile()): ?>
+              <a class="readPDF" href="<?= $pdf->url() ?>" target="_blank">Lire le pdf</a>
+              <?php endif ?>
+              <?php if ($award->team()->isNotEmpty()): ?>
+              <div class="block__national__awward__team">
+                <?= $award->team()->kirbyText() ?>
+              </div>
+              <?php endif ?>
             </div>
 
           </div> <!-- End of block__award__content -->

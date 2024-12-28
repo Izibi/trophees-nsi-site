@@ -24,7 +24,9 @@ fields:
           - paragraph
           - mosaic
           - calendar
+          - jury
           - partners
+          - partners-cardlets
           - step
       blocks_content:
         label: Blocs courants

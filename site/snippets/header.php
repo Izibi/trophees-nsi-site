@@ -28,9 +28,8 @@
   <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
   <!-- Place favicon.ico in the root directory -->
-
   <?= css([
-    'assets/fonts/bebas/index.css',
+    'assets/fonts/anton/index.css',
     'assets/fonts/roboto-slab/index.css',
     'assets/css/normalize.css',
     'assets/css/main.min.css',
