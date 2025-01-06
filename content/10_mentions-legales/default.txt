@@ -2,7 +2,9 @@ Title: Mentions légales
 
 ----
 
-Cover: 
+Cover:
+
+- fond-orange-trophees-nsi.png
 
 ----
 

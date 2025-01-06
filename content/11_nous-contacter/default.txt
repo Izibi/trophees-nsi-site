@@ -2,7 +2,9 @@ Title: Nous contacter
 
 ----
 
-Cover: 
+Cover:
+
+- fond-orange-trophees-nsi.png
 
 ----
 

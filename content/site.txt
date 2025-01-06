@@ -5,9 +5,8 @@ Title: Les trophées NSI
 Menu-links:
 
 - participation
-- candidature
 - reglement
-- resultats-2024
+- ressources
 
 ----
 
@@ -19,14 +18,23 @@ Footer-links:
 
 - a-propos
 - faq
-- resultats-2023
-- nous-contacter
+- resultats-2024
 - mentions-legales
 
 ----
 
-Social-networks: 
+Social-networks:
+
+- 
+  type: instagram
+  url: https://www.instagram.com/tropheesnsi/
+- 
+  type: tiktok
+  url: https://www.tiktok.com/@trophees_nsi
+- 
+  type: x
+  url: https://x.com/tropheesnsi
 
 ----
 
-Legals: Tous droits réservés - Les Trophées NSI 2024
+Legals: Tous droits réservés - Les Trophées NSI 2025

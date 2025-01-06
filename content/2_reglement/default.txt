@@ -8,7 +8,7 @@ Slug: Règlement
 
 Cover:
 
-- scx-0610163.jpg
+- fond-orange-trophees-nsi.png
 
 ----
 
@@ -16,7 +16,7 @@ Short: Règlement
 
 ----
 
-Description: Présentation générale du concours 2025 : **TÉLÉCHARGER LE RGLEMENT**
+Description: **<a href="https://trophees-nsi.fr/media/pages/candidature/7b81fe2403-1733948230/trophees-nsi-reglement-2025.pdf" target=_blank>TÉLÉCHARGER LE RÈGLEMENT 2025</a>**
 
 ----
 
