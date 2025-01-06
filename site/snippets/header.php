@@ -32,7 +32,7 @@
     'assets/fonts/anton/index.css',
     'assets/fonts/roboto-slab/index.css',
     'assets/css/normalize.css',
-    'assets/css/main.min.css',
+    'assets/css/main.mincss',
   ]) ?>
 
   <meta name="theme-color" content="#E94E1B">

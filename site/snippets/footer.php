@@ -26,6 +26,9 @@
 
   <div class="footer__legals">
     <?= $site->legals() ?>
+    <?php if($mentions = $site->find('mentions-legales')): ?>
+      | &nbsp;<a href="<?= $mentions->url() ?>"><?= $mentions->title() ?></a>
+    <?php endif ?>
   </div>
 
 </footer>

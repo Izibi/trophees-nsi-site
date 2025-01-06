@@ -4,6 +4,6 @@
     <figure class="header__brand__picto">
       <?= asset('assets/img/nsi-logo-small.svg')->read() ?>
     </figure>
-  <p class="header__brand__headline"><?= $site->title()?></p>
+  <!-- <p class="header__brand__headline"><?= $site->title()?></p> -->
   </a>
 </div>
