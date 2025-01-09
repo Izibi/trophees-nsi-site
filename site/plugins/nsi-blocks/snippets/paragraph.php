@@ -1,17 +1,24 @@
-<?php if($block->headline()->isNotEmpty()): ?>
+<?php if($block->headline()->isNotEmpty()) : ?>
 
-  <div class="block -<?= $block->type() ?> -decoAngle">
+  <div class="block <?php echo '-'.$block->type() ?> -decoAngle">
 
-    <figure class="block__background -bgImg">
-      <?= $block->image()->toFile() ?>
-    </figure>
 
-    <h2 class="secondaryTitle"><?= $block->headline() ?></h2>
+      <figure class="block__background -bgImg">
+        <?php echo $block->image()->toFile() ?>
+      </figure>
 
-    <div class="block__paragraph">
-      <div class="block__paragraph__intro"><?= $block->header()->kirbytext() ?></div>
-      <div class="block__paragraph__text -plain"><?= $block->text()->kirbytext() ?></div>
-    </div>
+      <div class="two-columns">
+
+        <div>
+          <h2 class="secondaryTitle"><?php echo $block->headline() ?></h2>
+        </div>
+        <div class="block__paragraph">
+          <div class="block__paragraph__intro"><?php echo $block->header()->kirbytext() ?></div>
+          <div class="block__paragraph__text -plain"><?php echo $block->text()->kirbytext() ?></div>
+        </div>
+
+      </div>
+
 
   </div>
 

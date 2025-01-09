@@ -39,7 +39,7 @@ function selectNews($news) {
 
 </header>
 
-<section class="content">
+<section class="content wrapper">
 
   <?php foreach ($page->blocks()->toBlocks() as $key => $block): ?>
       <?= $block ?>

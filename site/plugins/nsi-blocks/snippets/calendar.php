@@ -1,6 +1,7 @@
 <?php if($block->headline()->isNotEmpty()): ?>
 
   <div class="block -<?= $block->type() ?>">
+    <div class="wrapper">
 
     <h2 class="secondaryTitle"><?= $block->headline() ?></h2>
 
@@ -16,6 +17,7 @@
         </li>
       <?php endforeach; ?>
     </ul>
+    </div>
 
   </div>
 
