@@ -17,9 +17,9 @@ Logo:
 Footer-links:
 
 - a-propos
+- communication
 - faq
 - resultats-2024
-- mentions-legales
 
 ----
 
