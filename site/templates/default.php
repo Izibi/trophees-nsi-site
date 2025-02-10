@@ -17,7 +17,7 @@
 
 
   <!-- Title -->
-  <h1 class="header__title secondaryTitle"><?= $page->title() ?></h1>
+  <h1 class="header__title primaryTitle"><?= $page->title() ?></h1>
   <?php if($page->description()->isNotEmpty()): ?>
     <div class="header__desc -plain"><?= $page->description()->kirbytext() ?></div>
   <?php endif ?>
