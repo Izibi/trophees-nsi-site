@@ -8,7 +8,7 @@ Cover:
 
 ----
 
-Short: Contact
+Short: Contactez-nous !
 
 ----
 
@@ -16,4 +16,4 @@ Description:
 
 ----
 
-Blocks: 
+Blocks: [{"content":{"text":"<p>Pour toute question sur le concours, nous vous invitons \u00e0 prendre connaissance de <strong><a href=\"https:\/\/trophees-nsi.fr\/faq\" rel=\"noopener noreferrer\">la foire aux questions<\/a><\/strong>. Nous avons peut-\u00eatre d\u00e9j\u00e0 apport\u00e9 des pr\u00e9cisions sur l\u2019une de vos interrogations.<\/p><p>En cas de besoin, une boite contact est \u00e0 votre disposition pour toute demande d'information compl\u00e9mentaire \u00e0 <a href=\"mailto:info@trophees-nsi.fr\">info@trophees-nsi.fr<\/a> (<em>r\u00e9ponse sous 48h \u00e0 72h hors week-ends et jours f\u00e9ri\u00e9s<\/em>).<\/p>"},"id":"50c05802-a9e5-465a-bddf-5097c05c9c51","isHidden":false,"type":"text"}]

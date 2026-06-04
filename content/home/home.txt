@@ -8,34 +8,24 @@ Cover:
 
 ----
 
-News-headline: ÉDITION 2025
+News-headline: ÉDITION 2026
 
 ----
 
 News:
 
 - 
-  date: 2022-01-13
-  text: '**DERNIERES HEURES** : Vous avez jusqu’au vendredi 06 mai, 13h pour (link: https://depot.trophees-nsi.fr target: _blank text: **finaliser le dépôt de projets de vos élèves**.)'
+  date: 2026-03-09
+  text: '**CONCOURS OUVERT** : Vous avez jusqu’au vendredi 27 mars à 20h (heure de Paris) pour (link: https://depot.trophees-nsi.fr target: _blank text: **finaliser le dépôt de projets de vos élèves**.)'
   published: 'false'
 - 
-  date: 2024-06-20
-  text: 'RÉSULTATS | Découvrez les (link: https://trophees-nsi.fr/resultats-2024 text: **6 lauréats nationaux**) des Trophées NSI 2024 ! BRAVO à tous les élèves pour leur contribution à ce concours.'
+  date: 2025-06-10
+  text: 'Découvrez les **6 lauréats nationaux** des Trophées NSI 2025 : **(link: https://youtu.be/WCdQZoezB7s?si=qoaXLy9he5iBtOgE text: Revoir la cérémonie de clôture)**'
   published: 'false'
 - 
-  date: 2023-05-23
-  text: 'FINALE : Découvrez les (link: https://trophees-nsi.fr/resultats-2024 text: **104 lauréats territoriaux**) sélectionnés pour la finale nationale des Trophées NSI 2024 !'
+  date: 2024-05-12
+  text: '**SÉLECTIONS TERRITORIALES** : (link: https://trophees-nsi.fr/resultats-2025 text: Découvrez les **124 projets** sélectionnés pour la finale nationale des Trophées NSI 2025 !)'
   published: 'false'
-- 
-  date: 2023-06-29
-  text: "Vous êtes élève ou enseignant ? Vous avez participé aux Trophées NSI 2023 ? Votre avis nous intéresse pour préparer l'édition 2024 : **(link: https://framaforms.org/les-trophees-nsi-2023-enquete-de-satisfaction-elevesenseignants-1686639012 text: répondre à l'enquête)**"
-  published: 'false'
-- 
-  date: 2025-01-06
-  text: |
-    **Le dépôt est ouvert !**
-    Les dosssiers de candidatures sont à déposer avant le vendredi 28 mars 2025, 18h (heure de Paris).
-  published: 'true'
 - 
   date: 2024-02-07
   text: "**SONDAGE** | Vos élèves participeront-ils aux Trophées NSI 2024 ? Combien de projets prévoyez-vous de déposer ? (link: https://framaforms.org/trophees-nsi-2024-intention-de-participation-1706601309 text: **Répondre à l'enquête**) *(réservé aux enseignantes et enseignants de NSI)*."
@@ -45,14 +35,32 @@ News:
   text: 'Les dossiers sont à déposer avant **le 28 mars 2025, 18h** (fuseau horaire : Paris). La liste des livrables à fournir est disponible ici : **(link: https://trophees-nsi.fr/candidature text: Candidater)**'
   published: 'false'
 - 
-  date: 2024-04-08
-  text: '**ÉVALUATION EN COURS** | Le dépôt des dossiers est désormais terminé. Les dossiers ont été transmis aux jurys territoriaux. RDV le **21 mai** pour découvrir les projets lauréats sélectionnés pour la finale nationale.'
+  date: 2026-04-03
+  text: '**FINALE TERRITORIALE** | Les dossiers sont actuellement évalués par les jurys territoriaux. RDV le **11 mai** pour découvrir les équipes sélectionnées pour la finale nationale.'
   published: 'false'
 - 
-  date: 2024-10-08
-  text: 'La 4ème édition des Trophées NSI se tiendra du 6 janvier au 10 juin 2025 sous le thème « Arts & Informatique » !'
+  date: 2025-09-19
+  text: 'Rendez-vous le 3 novembre 2025 à 18h pour le lancement des Trophées NSI 2026 sur le thème **« Nature & Informatique »**.'
   published: 'false'
+- 
+  date: 2025-11-03
+  text: |
+    (link: https://depot.trophees-nsi.fr/ text: **INSCRIVEZ-VOUS MAINTENANT**).
+    Les pré-inscriptions sont ouvertes jusqu'au **09/03/2026 inclus**. Seuls les professeurs pré-inscrits pourront soumettre les dossiers de candidature de leurs élèves.
+  published: 'false'
+- 
+  date: 2026-05-12
+  text: '**SÉLECTIONS NATIONALES** | Découvrez les **(link: https://trophees-nsi.fr/resultats-2026 text: 161 équipes sélectionnées pour la finale nationale)** !'
+  published: 'false'
+- 
+  date: 2026-05-20
+  text: "**PRIX DU PUBLIC** | Du 20 au 29 mai 2026, **(link: https://trophees-nsi.fr/prix-du-public-2026 text: votez pour votre projet préféré parmi les 6 finalistes)** ! L'équipe gagnante sera dévoilée le 9 juin."
+  published: 'false'
+- 
+  date: 2026-06-01
+  text: '**FINALE NATIONALE** | Les 8 équipes gagnantes seront révélées en direct lors de la cérémonie de clôture des Trophées NSI 2026. Nous vous donnons rendez-vous en ligne le mardi 9 juin de 14h à 16h (heure de Paris) !'
+  published: 'true'
 
 ----
 
-Blocks: [{"content":{"headline":"Les objectifs","text":"Le concours informatique pour tous les \u00e9l\u00e8ves en sp\u00e9cialit\u00e9 \u00ab num\u00e9rique et sciences informatiques \u00bb (NSI).","features":[{"feature":"Les meilleurs projets territoriaux sont s\u00e9lectionn\u00e9s pour la finale nationale."},{"feature":"3 cat\u00e9gories de prix seront attribu\u00e9es en 2025."},{"feature":"Les projets des laur\u00e9ats sont pr\u00e9sent\u00e9s sur le site du concours."}]},"id":"e44420ef-b17c-4710-977f-293afd8c37b2","isHidden":false,"type":"features"},{"content":{"headline":"Pourquoi participer ?","header":"Les Troph\u00e9es NSI ont pour objectif de valoriser l'enseignement de sp\u00e9cialit\u00e9 NSI !","text":"Profitez de cette opportunit\u00e9 incroyable pour mettre en pratique les comp\u00e9tences acquises au cours de l'ann\u00e9e, et de pr\u00e9senter les plus beaux projets men\u00e9s en classe !","image":[]},"id":"c01e426a-4e43-47d4-a6ff-9a70aa806954","isHidden":false,"type":"paragraph"},{"content":{"headline":"Qui peut participer ?","thumbnails":[{"image":["france-2.svg"],"text":"Tous les \u00e9l\u00e8ves inscrits en sp\u00e9cialit\u00e9 NSI en premi\u00e8re et terminale"},{"image":["equipe-2.svg"],"text":"Par \u00e9quipe de 2 \u00e0 5 personnes maximum"},{"image":["enseignant-2.svg"],"text":"Le d\u00e9pot des projets est r\u00e9alis\u00e9 par le professeur de NSI"}],"cta_label":"D\u00e9poser un projet","cta_url":"https:\/\/depot.trophees-nsi.fr"},"id":"4cf6c962-d44b-4cb4-a7b9-035db2043fdb","isHidden":false,"type":"mosaic"},{"content":{"headline":"Calendrier","dates":[{"icon":["upload.svg"],"date_headline":"Lancement de la 4\u00e8me \u00e9dition","day":"6 janvier 2025","hour":"10h00","comment":"","duration":"true"},{"icon":["stopwatch.svg"],"date_headline":"Cl\u00f4ture des candidatures","day":"28 mars 2025","hour":"18h00","comment":"","duration":"false"},{"icon":["medal.svg"],"date_headline":"Finales territoriales","day":"9 mai 2025","hour":"","comment":"","duration":"false"},{"icon":["trophy.svg"],"date_headline":"Finale nationale","day":"10 Juin 2025","hour":"14h \u00e0 16h","comment":"","duration":"false"}]},"id":"e61f1043-520c-4360-a460-308292213a3d","isHidden":false,"type":"calendar"},{"content":{"headline":"Organisations partenaires","text":"Les Troph\u00e9es NSI sont pilot\u00e9s par l'association Talents du Num\u00e9rique avec un comit\u00e9 regroupant une quinzaine d'organisations repr\u00e9sentatives des \u00e9cosyst\u00e8mes num\u00e9rique et \u00e9ducatif.","partners":[{"logo":["aeif.png"],"name":"Aeif","url":"https:\/\/www.aeif.fr"},{"logo":["cnrs-new.png"],"name":"CNRS","url":"https:\/\/www.cnrs.fr\/fr\/page-daccueil"},{"logo":["logo_cigref.png"],"name":"CIGREF","url":"https:\/\/www.cigref.fr\/"},{"logo":["cdefi.png"],"name":"CDEFI","url":"http:\/\/www.cdefi.fr\/"},{"logo":["cge-logo.png"],"name":"CGE","url":"https:\/\/www.cge.asso.fr\/"},{"logo":["femmes_numerique_logo_0.png"],"name":"Femmes@Num\u00e9rique","url":"https:\/\/femmes-numerique.fr\/"},{"logo":["fondation-inria.jpg"],"name":"Fondation Inria","url":"https:\/\/www.fondation-inria.fr\/"},{"logo":["france_universites_logo.svg"],"name":"France Universit\u00e9s","url":"https:\/\/franceuniversites.fr\/"},{"logo":["inr_logo_rouge.png"],"name":"Inria","url":"https:\/\/www.inria.fr\/fr"},{"logo":["numeum-logo.png"],"name":"NUMEUM","url":"https:\/\/numeum.fr\/"},{"logo":["logotype_onisep.jpg"],"name":"ONISEP","url":"https:\/\/www.onisep.fr\/"},{"logo":["logo-sif-2022.png"],"name":"SIF","url":"https:\/\/www.societe-informatique-de-france.fr\/"},{"logo":["new_tdn.png"],"name":"Talents du Num\u00e9rique","url":"https:\/\/talentsdunumerique.com\/"}],"supports_headline":"Avec le soutien de","supports":[{"logo":["atlas_v2.png"],"name":"Opco Atlas","url":"https:\/\/www.opco-atlas.fr\/"},{"logo":["gouvernement.png"],"name":"Gouvernement fran\u00e7ais","url":"https:\/\/www.gouvernement.fr\/"}],"conclusion":"Ce concours b\u00e9n\u00e9ficie \u00e9galement du soutien du minist\u00e8re de l\u2019\u00c9ducation nationale et de la Jeunesse, du minist\u00e8re de l\u2019Enseignement sup\u00e9rieur et de la Recherche, et du minist\u00e8re de l\u2019\u00c9conomie, des Finances et de la Souverainet\u00e9 industrielle et num\u00e9rique."},"id":"b9da5083-7132-4b22-9178-a75f9c2c6c86","isHidden":false,"type":"partners"}]
+Blocks: [{"content":{"headline":"Le concours","text":"Le concours informatique pour tous les \u00e9l\u00e8ves en sp\u00e9cialit\u00e9 \u00ab num\u00e9rique et sciences informatiques \u00bb (NSI).","features":[{"feature":"Le projet pr\u00e9sent\u00e9 doit respecter le programme de NSI."},{"feature":"8 projets prim\u00e9s en 2026 lors de la finale nationale."},{"feature":"Les laur\u00e9ats nationaux b\u00e9n\u00e9ficient d'une dotation, sous forme de lots."}]},"id":"e44420ef-b17c-4710-977f-293afd8c37b2","isHidden":false,"type":"features"},{"content":{"headline":"Les projets autoris\u00e9s","header":"Profitez de cette opportunit\u00e9 incroyable pour mettre en pratique les comp\u00e9tences acquises au cours de l'ann\u00e9e !","text":"Les Troph\u00e9es NSI r\u00e9compensent les meilleurs projets informatiques r\u00e9alis\u00e9s par les \u00e9l\u00e8ves en sp\u00e9cialit\u00e9 \u00ab num\u00e9rique et sciences informatiques \u00bb (NSI). Ce concours a pour objectif de rendre visibles les projets men\u00e9s durant l\u2019ann\u00e9e scolaire en classe de NSI.","image":[]},"id":"c01e426a-4e43-47d4-a6ff-9a70aa806954","isHidden":false,"type":"paragraph"},{"content":{"headline":"Les crit\u00e8res d'\u00e9ligibilit\u00e9","thumbnails":[{"image":["france-2.svg"],"text":"Pour tous les \u00e9l\u00e8ves inscrits en sp\u00e9cialit\u00e9 NSI en premi\u00e8re et terminale."},{"image":["equipe-2.svg"],"text":"Par \u00e9quipe de 2 \u00e0 4 \u00e9l\u00e8ves maximum."},{"image":["enseignant-2.svg"],"text":"Le d\u00e9pot des projets est r\u00e9alis\u00e9 par le professeur de NSI."}],"cta_label":"D\u00e9poser un projet","cta_url":"https:\/\/depot.trophees-nsi.fr"},"id":"4cf6c962-d44b-4cb4-a7b9-035db2043fdb","isHidden":false,"type":"mosaic"},{"content":{"headline":"Les \u00e9tapes","dates":[{"icon":["stopwatch.svg"],"date_headline":"Pr\u00e9-inscription aux Troph\u00e9es NSI 2026","day":"03\/11\/2025 au 09\/03\/2026","hour":"","comment":"","duration":"false"},{"icon":["upload.svg"],"date_headline":"Fermeture du d\u00e9p\u00f4t des dossiers","day":"27\/03\/2026","hour":"20h00","comment":"","duration":"false"},{"icon":["medal.svg"],"date_headline":"S\u00e9lections territoriales","day":"03\/04\/2026 au 07\/05\/2026","hour":"","comment":"","duration":"false"},{"icon":["trophy.svg"],"date_headline":"Finale nationale","day":"09\/06\/2026","hour":"14h \u00e0 16h","comment":"","duration":"false"}]},"id":"e61f1043-520c-4360-a460-308292213a3d","isHidden":false,"type":"calendar"},{"content":{"headline":"Les membres fondateurs","text":"Les Troph\u00e9es NSI sont pilot\u00e9s par l\u2019association Talents du num\u00e9rique, en collaboration avec une quinzaine d\u2019organisations repr\u00e9sentatives des \u00e9cosyst\u00e8mes num\u00e9rique et \u00e9ducatif.","partners":[{"logo":["aeif.png"],"name":"Aeif","url":"https:\/\/www.aeif.fr"},{"logo":["logo_cigref.png"],"name":"CIGREF","url":"https:\/\/www.cigref.fr\/"},{"logo":["cnrs-new.png"],"name":"CNRS","url":"https:\/\/www.cnrs.fr\/fr\/page-daccueil"},{"logo":["cdefi.png"],"name":"CDEFI","url":"http:\/\/www.cdefi.fr\/"},{"logo":["cge-logo.png"],"name":"CGE","url":"https:\/\/www.cge.asso.fr\/"},{"logo":["femmes_numerique_logo_0.png"],"name":"Femmes@Num\u00e9rique","url":"https:\/\/femmes-numerique.fr\/"},{"logo":["inr_logo_rouge.png"],"name":"Inria","url":"https:\/\/www.inria.fr\/fr"},{"logo":["fondation-inria.jpg"],"name":"Fondation Inria","url":"https:\/\/www.fondation-inria.fr\/"},{"logo":["numeum-logo.png"],"name":"NUMEUM","url":"https:\/\/numeum.fr\/"},{"logo":["logonisep.png"],"name":"ONISEP","url":"https:\/\/www.onisep.fr\/"},{"logo":["logo-sif-2022.png"],"name":"SIF","url":"https:\/\/www.societe-informatique-de-france.fr\/"},{"logo":["new_tdn.png"],"name":"Talents du Num\u00e9rique","url":"https:\/\/talentsdunumerique.com\/"}],"supports_headline":"Avec le soutien de","supports":[{"logo":["atlas_v2.png"],"name":"Opco Atlas","url":"https:\/\/www.opco-atlas.fr\/"},{"logo":["gouvernement.png"],"name":"Gouvernement fran\u00e7ais","url":"https:\/\/www.gouvernement.fr\/"}],"conclusion":"Ce concours b\u00e9n\u00e9ficie \u00e9galement du soutien du minist\u00e8re de l\u2019\u00c9ducation nationale, du minist\u00e8re de l'Enseignement sup\u00e9rieur, de la Recherche et de l'Espace et du minist\u00e8re de l'\u00c9conomie, des Finances et de la Souverainet\u00e9 industrielle, \u00e9nerg\u00e9tique et num\u00e9rique."},"id":"b9da5083-7132-4b22-9178-a75f9c2c6c86","isHidden":false,"type":"partners"}]

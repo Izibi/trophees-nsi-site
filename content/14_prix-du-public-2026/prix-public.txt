@@ -1,0 +1,135 @@
+Title: Prix du Public 2026
+
+----
+
+Cover:
+
+- fond-orange-trophees-nsi-1024x.png
+
+----
+
+Short: Votez pour le Prix du Public
+
+----
+
+Description: Du 20 au 29 mai 2026, votez pour votre projet préféré parmi les 6 finalistes du Prix du Public des Trophées NSI 2026. L'équipe gagnante sera dévoilée le 9 juin !
+
+----
+
+Headline-projects: Les projets finalistes
+
+----
+
+Projects:
+
+- 
+  headline: AN TYÉ PEYI A
+  school: Lycée Bellevue	(Fort-de-France)
+  description: >
+    Le projet est présenté sous le nom de
+    « An tjè péyi a ». Il s’agit
+    d’une insertion au cœur de l’île
+    aux fleurs la Martinique, à travers
+    différents mini-jeu (à base de la
+    bibliothèque pygame notamment). Avec ce
+    projet, vous pourrez sauver la mangrove
+    de la pollution, permettre aux habitants
+    de Saint-Pierre d’échapper à
+    l’éruption de la montagne Pelée ou
+    encore tester vos connaissances sur
+    l’île sœur de la Guadeloupe qu’est
+    la Martinique.
+  picture:
+    - an-tye-peyi-a.png
+  team: |
+    - Leeron GODERT
+    - Lilian LECURIEUX-LAFFERRONNAYE
+    - Célyvan SAINT-LOUIS CHATON
+    - Sohane SYLVANISE
+  video_link: >
+    https://tube-sciences-technologies.apps.education.fr/w/xcEE35XCn4xSTkP2z2g7ra
+  link: >
+    https://forge.apps.education.fr/trophees/martinique/1866-an-tye-peyi-a
+  pdf: [ ]
+- 
+  headline: BOIDS NIGHT
+  school: Lycée Moulin Joli (La Possession)
+  description: "Boid's Night est une simulation de boids (bird-oid) complètement customisable. Les boids simulent une nuée d'oiseaux en suivant trois règles : la cohésion, chaque boid se dirige vers la position moyenne des boids aux alentours, la séparation, chaque boid évite de rester trop proche d'un autre boid et l'alignement, chaque boid s'oriente dans la direction moyenne de ses voisins. C'est après avoir découvert le thème de cette année qu'on a pensé que les boids seraient un projet parfaitement adapté."
+  picture:
+    - boids-night.png
+  team: |
+    - Ashima DAROUECHI
+    - Eloïse DIOT
+    - Émilien HOARAU
+    - Romain WATANABE
+  video_link: >
+    https://tube-sciences-technologies.apps.education.fr/w/kxHmtuXApQdRHpUZtCGF7Z
+  link: >
+    https://forge.apps.education.fr/ethevejerome-guy/2026-1867-boids-night
+  pdf: [ ]
+- 
+  headline: FLORACARE
+  school: Lycée privé Stanislas (Cannes)
+  description: |
+    Et si votre plante pouvait enfin vous parler ? FloraCare transforme la nature en objet connecté grâce à un « Tamagotchi végétal » unique. Ce compagnon intelligent traduit la soif ou le manque de lumière en émotions visibles sur écran.
+    Son point fort ? Une interface WiFi dédiée pour personnaliser les analyses et adapter les soins à chaque espèce. Alliant électronique sur mesure et code MicroPython, FloraCare met le numérique au service du vivant pour rendre le jardinage intuitif.
+  picture:
+    - floracare.jpg
+  team: |
+    - Arnaud DEBROUASSE
+    - Alexander KODRYANSKIY
+  video_link: >
+    https://tube-sciences-technologies.apps.education.fr/w/2jaoVnEJxiDkLrJFfSYtT5
+  link: >
+    https://forge.apps.education.fr/ballestaphilippe/FloraCare
+  pdf: [ ]
+- 
+  headline: MBRICK
+  school: Lycée Marc Bloch (Val-de-Reuil)
+  description: >
+    Donnez vie à vos images en briques !
+    MBrick est une application qui
+    transforme vos images en une mosaïque
+    de LEGO. Vous pouvez récupérer votre
+    image transformée, mais aussi la liste
+    des pièces nécessaires à la
+    fabrication de cette image, en LEGO.
+  picture:
+    - mbrick.png
+  team: |
+    - Mattéo SUIRE
+    - Achille VAN DEN BRANDE
+  video_link: >
+    https://tube-sciences-technologies.apps.education.fr/w/777iVHv5agG2Hp8h6LUSaV
+  link: >
+    https://forge.apps.education.fr/mbloch/mbrick
+  pdf: [ ]
+- 
+  headline: SYNERGIE
+  school: Lycée privé Notre Dame (Chartres)
+  description: "Synergie est un jeu vidéo, réconciliant nature et urbanisme. Avec les problèmes d'écologie nous affectant de plus en plus, ce jeu sensibilise de façon ludique certains aspects de l'écologie sous forme d'un city-builder (un jeu de gestion de ville)."
+  picture:
+    - synergie.png
+  team: |
+    - Aymeric BINEY
+    - Lucas BOUTELLIER
+    - Anton HOLLANDE
+    - Alexandre SIMON
+  video_link: >
+    https://tube-sciences-technologies.apps.education.fr/w/updfDiqsBHTTRpqJA8MVVu
+  link: https://github.com/hollandea/Synergie
+  pdf: [ ]
+- 
+  headline: THE DESCENT
+  school: Lycée général Charlemagne (Paris 4e)
+  description: "The Descent est un simulateur 2D d'écosystème autonome (prédateurs, proies, ressources) dans lequel plusieurs espèces animales dotées d'une IA évoluent et interagissent. Chaque individu possède des caractéristiques influençant sa survie, ses déplacements et sa reproduction, permettant l'évolution des populations au fil des générations. L'utilisateur peut paramétrer la simulation, suivre des animaux et analyser les résultats grâce à des graphiques, des diagrammes et des données exportables en CSV."
+  picture:
+    - the-descent.png
+  team: |
+    - Ahmed-Adam REZKALLAH
+    - Noé SAMUEL
+  video_link: >
+    https://tube-sciences-technologies.apps.education.fr/w/jWKoFn9Ut8HkEfd5Zfz4a4
+  link: >
+    https://forge.apps.education.fr/xcoolen/2026_2089_TheDescent
+  pdf: [ ]

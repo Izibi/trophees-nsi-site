@@ -6,7 +6,7 @@ Menu-links:
 
 - participation
 - reglement
-- ressources
+- resultats-2026
 
 ----
 
@@ -17,9 +17,9 @@ Logo:
 Footer-links:
 
 - a-propos
-- communication
-- faq
-- resultats-2024
+- ressources
+- resultats-2025
+- nous-contacter
 
 ----
 
@@ -31,10 +31,7 @@ Social-networks:
 - 
   type: tiktok
   url: https://www.tiktok.com/@trophees_nsi
-- 
-  type: x
-  url: https://x.com/tropheesnsi
 
 ----
 
-Legals: Tous droits réservés - Les Trophées NSI 2025
+Legals: Tous droits réservés - Les Trophées NSI 2026
