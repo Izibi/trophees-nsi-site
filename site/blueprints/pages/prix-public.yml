@@ -1,0 +1,62 @@
+title: Prix du Public
+
+tabs:
+  settings:
+    label: Paramètres de la page
+    icon: text
+    sections:
+      settings:
+        type: fields
+        fields:
+          cover: fields/cover
+          intro_headline:
+            type: headline
+            label: Informations de la page
+          short: fields/short
+          description:
+            type: textarea
+            label: Description de la page
+          headline_projects:
+            label: Titre de la section projets
+            type: text
+            default: Les projets en compétition
+          
+  projects:
+    label: Projets
+    icon: star
+    sections:
+      projects_section:
+        type: fields
+        fields:
+          projects:
+            type: structure
+            label: Liste des projets
+            fields:
+              headline:
+                type: text
+                label: Titre du projet
+                required: true
+              school:
+                type: text
+                label: Nom de l'établissement scolaire
+              description:
+                type: textarea
+                label: Description du projet
+              picture:
+                type: files
+                label: Image du projet
+                max: 1
+                layout: cardlets
+              team:
+                type: textarea
+                label: Membres de l'équipe
+              video_link:
+                type: url
+                label: Lien vers la vidéo du projet
+              link:
+                type: url
+                label: Lien vers le dossier technique
+              pdf:
+                type: files
+                label: PDF de présentation
+                max: 1

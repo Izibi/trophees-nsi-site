@@ -31,10 +31,36 @@ fields:
       team:
         type: textarea
         label: Les membres de l'équipe
-      video:
-        type: url
-        label: Lien vers la vidéo du projet
       pdf:
         type: files
         label: Le PDF de présentation
         max: 1
+      dossier:
+        type: url
+        label: Lien vers le dossier technique
+      video:
+        type: url
+        label: Lien vers la vidéo du projet
+      nomines:
+        type: structure
+        label: Nominés
+        fields:
+          headline:
+            type: text
+            label: Titre du projet
+          school:
+            type: text
+            label: Nom de l'établissement
+          team:
+            type: textarea
+            label: Les membres de l'équipe
+          pdf:
+            type: files
+            label: Le PDF de présentation
+            max: 1
+          dossier:
+            type: url
+            label: Lien vers le dossier technique
+          video_link:
+            type: url
+            label: Lien vers la vidéo
